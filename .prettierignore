@@ -72,5 +72,3 @@ storybook-static
 .rollup.cache
 
 dist
-
-tsconfig.tsbuildinfo

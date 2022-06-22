@@ -8,18 +8,20 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "ESNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react",
     "incremental": true,
+    "declaration": true,
     "declarationDir": "types",
     "sourceMap": true,
+    "rootDir": "stories",
     "outDir": "dist",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "**/*.stories.tsx"]
 }

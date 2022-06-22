@@ -13,7 +13,6 @@ module.exports = {
     "@storybook/addon-a11y",
     "@storybook/addon-storysource",
     "@storybook/addon-docs",
-    "storybook-dark-mode",
     {
       /**
        * Fix Storybook issue with PostCSS@8

@@ -7,6 +7,10 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "@storybook/addon-a11y",
+    "@storybook/addon-storysource",
+    "@storybook/addon-docs",
+    "storybook-dark-mode",
   ],
   framework: "@storybook/react",
   typescript: {

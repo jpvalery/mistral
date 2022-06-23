@@ -1,0 +1,21 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+const colors = require("tailwindcss/colors");
+
+<Meta title="Elements/Colors" />
+
+# Tailwind CSS Colors
+
+<ColorPalette>
+  {Object.keys(colors).map((name) => {
+    if (
+      typeof colors[name] != "string" &&
+      name != "lightBlue" &&
+      name != "warmGray" &&
+      name != "trueGray" &&
+      name != "coolGray" &&
+      name != "blueGray"
+    ) {
+      return <ColorItem title={name} colors={colors[name]} />;
+    }
+  })}
+</ColorPalette>

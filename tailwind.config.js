@@ -1,9 +1,6 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-  content: [
-    "./stories/**/*.{js,ts,jsx,tsx}"
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+  content: ["./src/**/*.js"],
+  plugins: [require("@tailwindcss/typography")],
 };

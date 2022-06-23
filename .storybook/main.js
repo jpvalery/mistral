@@ -2,10 +2,10 @@ const path = require("path");
 
 module.exports = {
   stories: [
-    "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)",
+    "../src/**/*.stories.mdx",
+    "../src/**/*.stories.@(js|jsx|ts|tsx)",
   ],
-  staticDirs: ["../stories/assets"],
+  staticDirs: ["../src/assets"],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -49,7 +49,7 @@ module.exports = {
     config.resolve.alias = {
       ...config.resolve?.alias,
       "@": [
-        path.resolve(__dirname, "../stories/"),
+        path.resolve(__dirname, "../src/"),
         path.resolve(__dirname, "../"),
       ],
     };
@@ -59,7 +59,7 @@ module.exports = {
      * @see https://github.com/storybookjs/storybook/issues/12844#issuecomment-867544160
      */
     config.resolve.roots = [
-      path.resolve(__dirname, "../stories/assets"),
+      path.resolve(__dirname, "../src/assets"),
       "node_modules",
     ];
 

@@ -10,7 +10,7 @@ const year = new Date().getFullYear();
 export default function Footer() {
   return (
     <footer>
-      <div className="mx-auto max-w-3xl py-12 md:flex md:items-center md:justify-between">
+      <div className="mx-auto max-w-4xl py-12 md:flex md:items-center md:justify-between">
         <div className="flex justify-center space-x-6 md:order-2">
           <a
             href="https://twitter.com/jpvalery"

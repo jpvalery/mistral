@@ -19,7 +19,7 @@
     "rootDir": "stories",
     "outDir": "dist",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": false
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "**/*.stories.tsx"]

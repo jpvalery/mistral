@@ -16,6 +16,13 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  options: {
+    storySort: {
+      method: "",
+      order: ['Getting Started','Components','Structure','Elements','Helpers'],
+      locales: "",
+    },
+  },
   previewTabs: {
     "storybook/docs/panel": { index: -1 },
   },

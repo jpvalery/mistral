@@ -21,7 +21,8 @@ External.args = {
   label: "My Button",
   color: "blue",
   theme: "dark",
-  destination: "external"
+  destination: "external",
+  url: "https://jpvalery.me"
 };
 
 export const Step = Template.bind({});

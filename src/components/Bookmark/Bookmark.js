@@ -25,7 +25,7 @@ export default function Bookmark({
   if (urlExternal == true) {
     return (
       <a href={url} target="_blank">
-        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 p-3 hover:bg-zinc-600">
+        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
           <span className={`h-10 w-10 flex-shrink-0 text-${color}-500`}>
             <HeroIcon icon={icon} />
           </span>
@@ -43,7 +43,7 @@ export default function Bookmark({
   } else {
     return (
       <IntLink href={url}>
-        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 p-3 hover:bg-zinc-600">
+        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
           <span className={`h-10 w-10 flex-shrink-0 text-${color}-500`}>
             <HeroIcon icon={icon} />
           </span>

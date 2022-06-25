@@ -9,6 +9,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 import { MenuIcon } from "@heroicons/react/outline";
 
 import Bookmark from "../../components/Bookmark/Bookmark";
+import Button from "../../components/Button/Button";
 
 function IntLink(props) {
   let { href, children, ...rest } = props;
@@ -25,7 +26,7 @@ export default function Header({ brand, menus }) {
   return (
     <div className="sticky top-0 z-50 bg-stone-900 bg-opacity-90 py-4">
       <div className="mx-auto max-w-4xl text-stone-300">
-        <div className="flex justify-between border-b border-stone-400 py-6">
+        <div className="flex justify-between items-center border-b border-stone-400 py-6">
           <div>{brand}</div>
 
           <div className="-my-2 -mr-2 md:hidden">
@@ -79,7 +80,16 @@ export default function Header({ brand, menus }) {
                             </Menu.Item>
                           );
                         })}
-                        {menu.cta && <div>HAHAHA</div>}
+                        {menu.cta && (
+                          <div className="py-2">
+                          <Button
+                            color="emerald"
+                            icon="InboxInIcon"
+                            label="Get in touch about photography"
+                            url="https://contact.jpvalery.me/photography"
+                          />
+                          </div>
+                        )}
                       </div>
                     </Menu.Items>
                   </Transition>

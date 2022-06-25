@@ -39,7 +39,7 @@ export default function TextHelper() {
         </p>
         <p>Clearly not the most elegant solution. ¯\_(ツ)_/¯</p>
       </div>
-      <div className="grid grid-flow-row gap-10 mx-auto max-w-5x">
+      <div className="max-w-5x mx-auto grid grid-flow-row gap-10">
         <div className="flex items-center gap-8">
           <div className="w-24">
             <h3 className="font-bold">Slate</h3>

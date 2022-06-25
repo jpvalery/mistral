@@ -11,4 +11,5 @@ const Template = (args) => <Footer {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
+  displaySocial: true,
 };

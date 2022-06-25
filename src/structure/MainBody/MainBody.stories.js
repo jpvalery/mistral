@@ -10,5 +10,4 @@ export default {
 const Template = (args) => <MainBody {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {
-};
+Default.args = {};

@@ -26,7 +26,7 @@ export default function Header({ brand, menus }) {
   return (
     <div className="sticky top-0 z-50 bg-stone-900 bg-opacity-90 py-4">
       <div className="mx-auto max-w-4xl text-stone-300">
-        <div className="flex justify-between items-center border-b border-stone-400 py-6">
+        <div className="flex justify-between items-center border-b border-stone-400 py-4">
           <div>{brand}</div>
 
           <div className="-my-2 -mr-2 md:hidden">

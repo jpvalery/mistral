@@ -1,13 +1,30 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default function Button({ label, onClick }) {
+import { ArrowNarrowRightIcon, ExternalLinkIcon } from "@heroicons/react/solid";
+
+import HeroIcon from "../../elements/icons/DynamicIcon";
+export default function Button({ label, icon, destination, onClick, color, theme }) {
   return (
     <button
       onClick={onClick}
-      className="inline-flex w-full cursor-pointer justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-base font-medium text-gray-900 shadow-sm hover:bg-green-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
+      className={`flex items-center justify-between gap-2 rounded-md border border-transparent ${
+        theme == "light" && "bg-gray-100 text-gray-900"
+      } ${theme == "dark" && "bg-zinc-800 text-zinc-100"} ${
+        color && `hover:bg-${color}-500 focus:ring-${color}-500`
+      } 
+      py-2 px-4 text-base font-medium shadow-sm hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:w-auto sm:text-sm`}
     >
-      {label}
+      {icon && (
+        <div className="h-6 w-6">
+          <HeroIcon icon={icon} />
+        </div>
+      )}
+      <div>{label}</div>
+        {destination == "external" && <ExternalLinkIcon className="h-4 w-4" />}
+        {destination == "step" && (
+          <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
+        )}
     </button>
   );
 }
@@ -15,8 +32,14 @@ export default function Button({ label, onClick }) {
 Button.propTypes = {
   label: PropTypes.string.isRequired,
   onClick: PropTypes.func,
+  icon: PropTypes.string,
+  destination: PropTypes.oneOf(["external", "step"]),
+  color: PropTypes.string,
+  theme: PropTypes.oneOf(["dark", "light"]),
 };
 
 Button.defaultProps = {
   onClick: undefined,
+  theme: "light",
+  color: "green",
 };

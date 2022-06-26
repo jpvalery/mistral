@@ -14,7 +14,7 @@ export default function Button({ label, icon, destination, onClick, color, theme
           } ${theme == "dark" && "bg-zinc-800 text-zinc-100"} ${
             color && `hover:bg-${color}-500 focus:ring-${color}-500`
           } 
-      py-2 px-4 text-base font-medium shadow-sm hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:w-auto sm:text-sm`}
+      py-2 px-4 h-12 text-base font-medium shadow-sm hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:w-auto sm:text-sm`}
         >
           {icon && (
             <div className="h-6 w-6">
@@ -40,7 +40,7 @@ export default function Button({ label, icon, destination, onClick, color, theme
         } ${theme == "dark" && "bg-zinc-800 text-zinc-100"} ${
           color && `hover:bg-${color}-500 focus:ring-${color}-500`
         } 
-      py-2 px-4 text-base font-medium shadow-sm hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:w-auto sm:text-sm`}
+      py-2 px-4 h-12 text-base font-medium shadow-sm hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:w-auto sm:text-sm`}
       >
         {icon && (
           <div className="h-6 w-6">

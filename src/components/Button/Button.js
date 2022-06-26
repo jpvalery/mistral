@@ -1,13 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import NextLink from "next/link";
+
 import { ArrowNarrowRightIcon, ExternalLinkIcon } from "@heroicons/react/solid";
 
 import HeroIcon from "../../elements/icons/DynamicIcon";
 export default function Button({ label, icon, destination, onClick, color, theme, url }) {
   if (url) {
-    return (
-      <a href={url}>
+    if (url.charAt(0) == "/")
+    {return (
+      <NextLink href={url}>
         <div
           className={`min-w-fit flex items-center justify-start gap-2 rounded-md border border-transparent ${
             theme == "light" && "bg-gray-100 text-gray-900"
@@ -29,8 +32,37 @@ export default function Button({ label, icon, destination, onClick, color, theme
             <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
           )}
         </div>
-      </a>
-    );
+      </NextLink>
+    );}
+    else {
+      {
+        return (
+          <a href={url}>
+            <div
+              className={`flex min-w-fit items-center justify-start gap-2 rounded-md border border-transparent ${
+                theme == "light" && "bg-gray-100 text-gray-900"
+              } ${theme == "dark" && "bg-zinc-800 text-zinc-100"} ${
+                color && `hover:bg-${color}-500 focus:ring-${color}-500`
+              } 
+      h-12 py-2 px-4 text-base font-medium shadow-sm hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:w-auto sm:text-sm`}
+            >
+              {icon && (
+                <div className="h-6 w-6">
+                  <HeroIcon icon={icon} />
+                </div>
+              )}
+              <div>{label}</div>
+              {destination == "external" && (
+                <ExternalLinkIcon className="h-4 w-4" />
+              )}
+              {destination == "step" && (
+                <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
+              )}
+            </div>
+          </a>
+        );
+      }
+    }
   } else {
     return (
       <button

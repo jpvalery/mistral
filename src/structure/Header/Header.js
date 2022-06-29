@@ -3,22 +3,12 @@ import PropTypes from "prop-types";
 
 import { Fragment, useEffect, useRef, useState } from "react";
 import { Transition, Menu } from "@headlessui/react";
-import NextLink from "next/link";
 
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import { MenuIcon } from "@heroicons/react/outline";
 
 import Bookmark from "../../components/Bookmark/Bookmark";
 import Button from "../../components/Button/Button";
-
-function IntLink(props) {
-  let { href, children, ...rest } = props;
-  return (
-    <NextLink href={href}>
-      <a {...rest}>{children}</a>
-    </NextLink>
-  );
-}
 
 export default function Header({ brand, menus }) {
   const [isMobileOpen, setIsMobileOpen] = useState(false);

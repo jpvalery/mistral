@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 
 import Button from "../Button/Button";
 
-export default function CallToAction({ title, description, color, ctaPrimaryLabel,
+export default function CallToAction({
+  title,
+  description,
+  color,
+  ctaPrimaryLabel,
   ctaPrimaryIcon,
   ctaPrimaryDestination,
   ctaPrimaryOnClick,
@@ -11,45 +15,47 @@ export default function CallToAction({ title, description, color, ctaPrimaryLabe
   ctaPrimaryTheme,
   ctaPrimaryUrl,
   ctaSecondaryLabel,
-    ctaSecondaryIcon,
-    ctaSecondaryDestination,
-    ctaSecondaryOnClick,
-    ctaSecondaryColor,
-    ctaSecondaryTheme,
-    ctaSecondaryUrl }) {
-  
-    return (
-      <div className={`mx-auto flex w-full flex-col gap-6 rounded-lg bg-${color}-900 p-12 md:flex-row md:gap-12`}>
-        <div className="flex-grow md:pr-6">
-          <h2 className="pb-4 text-3xl font-extrabold text-white">{title}</h2>
-          <p className="text-lg text-stone-200">{description}</p>
-        </div>
-        <div>
-          <div className="grid grid-rows-2 gap-4">
+  ctaSecondaryIcon,
+  ctaSecondaryDestination,
+  ctaSecondaryOnClick,
+  ctaSecondaryColor,
+  ctaSecondaryTheme,
+  ctaSecondaryUrl,
+}) {
+  return (
+    <div
+      className={`mx-auto flex w-full flex-col gap-6 rounded-lg bg-${color}-900 p-12 md:flex-row md:gap-12`}
+    >
+      <div className="flex-grow md:pr-6">
+        <h2 className="pb-4 text-3xl font-extrabold text-white">{title}</h2>
+        <p className="text-lg text-stone-200">{description}</p>
+      </div>
+      <div>
+        <div className="grid grid-rows-2 gap-4">
+          <Button
+            destination={ctaPrimaryDestination}
+            icon={ctaPrimaryIcon}
+            label={ctaPrimaryLabel}
+            onClick={ctaPrimaryOnClick}
+            theme={ctaPrimaryTheme}
+            url={ctaPrimaryUrl}
+            color={ctaPrimaryColor}
+          />
+          {ctaSecondaryLabel && (
             <Button
-              destination={ctaPrimaryDestination}
-              icon={ctaPrimaryIcon}
-              label={ctaPrimaryLabel}
-              onClick={ctaPrimaryOnClick}
-              theme={ctaPrimaryTheme}
-              url={ctaPrimaryUrl}
-              color={ctaPrimaryColor}
+              destination={ctaSecondaryDestination}
+              icon={ctaSecondaryIcon}
+              label={ctaSecondaryLabel}
+              onClick={ctaSecondaryOnClick}
+              theme={ctaSecondaryTheme}
+              url={ctaSecondaryUrl}
+              color={ctaSecondaryColor}
             />
-            {ctaSecondaryLabel && (
-              <Button
-                destination={ctaSecondaryDestination}
-                icon={ctaSecondaryIcon}
-                label={ctaSecondaryLabel}
-                onClick={ctaSecondaryOnClick}
-                theme={ctaSecondaryTheme}
-                url={ctaSecondaryUrl}
-                color={ctaSecondaryColor}
-              />
-            )}
-          </div>
+          )}
         </div>
       </div>
-    );
+    </div>
+  );
 }
 
 CallToAction.propTypes = {
@@ -91,4 +97,3 @@ CallToAction.defaultProps = {
   ctaSecondaryTheme: "light",
   ctaSecondaryUrl: "/destination",
 };
-

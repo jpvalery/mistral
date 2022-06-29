@@ -22,7 +22,7 @@ External.args = {
   color: "blue",
   theme: "dark",
   destination: "external",
-  url: "https://jpvalery.me"
+  url: "https://jpvalery.me",
 };
 
 export const Step = Template.bind({});

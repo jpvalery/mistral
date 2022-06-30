@@ -1,7 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { ExternalLinkIcon } from "@heroicons/react/solid";
 import format from "comma-number";
+import PropTypes from "prop-types";
 
 export default function Scorecard({ header, link, metric, color }) {
   const number = format(metric);

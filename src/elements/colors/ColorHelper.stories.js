@@ -1,5 +1,3 @@
-import React from "react";
-
 import ColorHelper from "./ColorHelper";
 
 export default {

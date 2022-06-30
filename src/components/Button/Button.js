@@ -1,10 +1,8 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 import NextLink from "next/link";
 
 import { ArrowNarrowRightIcon, ExternalLinkIcon } from "@heroicons/react/solid";
-
 import HeroIcon from "../../elements/icons/DynamicIcon";
 export default function Button({
   label,

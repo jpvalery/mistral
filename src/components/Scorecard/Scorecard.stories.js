@@ -1,5 +1,3 @@
-import React from "react";
-
 import Scorecard from "./Scorecard";
 
 export default {

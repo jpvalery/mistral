@@ -1,7 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { ExternalLinkIcon } from "@heroicons/react/solid";
 import NextLink from "next/link";
+import PropTypes from "prop-types";
 
 import HeroIcon from "../../elements/icons/DynamicIcon";
 

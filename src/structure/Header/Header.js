@@ -1,11 +1,10 @@
-import React from "react";
 import PropTypes from "prop-types";
 
-import { Fragment, useEffect, useRef, useState } from "react";
-import { Transition, Menu } from "@headlessui/react";
+import { Menu, Transition } from "@headlessui/react";
+import { Fragment, useState } from "react";
 
-import { ChevronDownIcon } from "@heroicons/react/solid";
 import { MenuIcon } from "@heroicons/react/outline";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 
 import Bookmark from "../../components/Bookmark/Bookmark";
 import Button from "../../components/Button/Button";
@@ -96,7 +95,7 @@ export default function Header({ brand, menus }) {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-90"
               >
-                <Menu.Items className="absolute right-0 mt-2 w-72 sm:w-96 origin-top-right gap-8 rounded-md bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <Menu.Items className="absolute right-0 mt-2 w-72 origin-top-right gap-8 rounded-md bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:w-96">
                   <div className="grid grid-flow-row gap-1 p-2">
                     {menus.map((menu) => {
                       return (

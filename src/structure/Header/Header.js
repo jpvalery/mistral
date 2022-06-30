@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 
 import { MenuIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
@@ -9,9 +9,14 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 import Bookmark from "../../components/Bookmark/Bookmark";
 import Button from "../../components/Button/Button";
 
-export default function Header({ brand, menus }) {
-  const [isMobileOpen, setIsMobileOpen] = useState(false);
-
+export default function Header({
+  brand,
+  menus,
+  mobileCtaColor,
+  mobileCtaIcon,
+  mobileCtaLabel,
+  mobileCtaUrl,
+}) {
   return (
     <div className="sticky top-0 z-50 bg-stone-900 bg-opacity-90 pb-4 pt-0 md:pt-4">
       <div className="mx-auto max-w-4xl text-stone-300">
@@ -106,7 +111,6 @@ export default function Header({ brand, menus }) {
                                 {({ active }) => (
                                   <Bookmark
                                     color={item.color}
-                                    description={item.description}
                                     icon={item.icon}
                                     title={item.title}
                                     url={item.url}
@@ -121,10 +125,10 @@ export default function Header({ brand, menus }) {
                     })}
                     <div className="py-2">
                       <Button
-                        color="emerald"
-                        icon="InboxInIcon"
-                        label="Get in touch"
-                        url="https://contact.jpvalery.me"
+                        color={mobileCtaColor}
+                        icon={mobileCtaIcon}
+                        label={mobileCtaLabel}
+                        url={mobileCtaUrl}
                       />
                     </div>
                   </div>
@@ -141,6 +145,10 @@ export default function Header({ brand, menus }) {
 Header.propTypes = {
   brand: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
   menus: PropTypes.arrayOf(PropTypes.object),
+  mobileCtaColor: PropTypes.string,
+  mobileCtaIcon: PropTypes.string,
+  mobileCtaLabel: PropTypes.string,
+  mobileCtaUrl: PropTypes.string,
 };
 
 Header.defaultProps = {
@@ -189,4 +197,8 @@ Header.defaultProps = {
       },
     },
   ],
+  mobileCtaColor: "green",
+  mobileCtaIcon: "InboxInIcon",
+  mobileCtaLabel: "Get in touch",
+  mobileCtaUrl: "https://contact.jpvalery.me",
 };

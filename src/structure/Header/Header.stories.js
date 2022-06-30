@@ -54,4 +54,8 @@ Default.args = {
       },
     },
   ],
+  mobileCtaColor: "green",
+  mobileCtaIcon: "InboxInIcon",
+  mobileCtaLabel: "Get in touch",
+  mobileCtaUrl: "https://contact.jpvalery.me",
 };

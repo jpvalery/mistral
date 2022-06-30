@@ -1,11 +1,13 @@
 import PropTypes from "prop-types";
 
+import Header1 from "../../elements/headers/Header1/Header1";
+
 export default function Post({ header, children }) {
   return (
     <main>
-      <h1 className="font-serif text-4xl font-extrabold tracking-tight text-white">
+      <Header1>
         {header}
-      </h1>
+      </Header1>
       <article className="prose prose-xl py-4 text-stone-50 prose-a:text-blue-600">
         {children}
       </article>

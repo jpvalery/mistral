@@ -1,4 +1,3 @@
-
 /*
  Giving up on trying to get all the colors name automatically. Definitely a possible improvement.
 const colors = require("tailwindcss/colors");
@@ -818,8 +817,6 @@ export default function ColorHelper() {
           </div>
         </div>
       </div>
-
-      
 
       <div className="max-w-5x mx-auto grid grid-flow-row gap-10">
         <div className="flex items-center gap-8">

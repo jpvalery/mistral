@@ -12,7 +12,8 @@ Default.args = {
   header: "Title",
   content: (
     <p>
-      Lorem ipsum sit dolor amet<br />
+      Lorem ipsum sit dolor amet
+      <br />
       <em>Lorem ipsum sit dolor amet</em>
     </p>
   ),

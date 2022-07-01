@@ -1,14 +1,11 @@
-
-export default function Header4({children }) {
+export default function Header4({ children }) {
   return (
-      <h1 className="text-2xl font-extrabold tracking-tight text-white">
-        {children}
-      </h1>
+    <h1 className="text-2xl font-extrabold tracking-tight text-white">
+      {children}
+    </h1>
   );
 }
 
-Header4.propTypes = {
-};
+Header4.propTypes = {};
 
-Header4.defaultProps = {
-};
+Header4.defaultProps = {};

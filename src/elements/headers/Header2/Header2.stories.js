@@ -9,5 +9,5 @@ const Template = (args) => <Header2>{args.text}</Header2>;
 
 export const Default = Template.bind({});
 Default.args = {
-  text: "Lorem Ipsum"
+  text: "Lorem Ipsum",
 };

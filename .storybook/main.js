@@ -9,7 +9,10 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/addon-a11y",
     "@storybook/addon-storysource",
-    "@storybook/addon-docs",
+    {
+      name: "@storybook/addon-docs",
+      options: { transcludeMarkdown: true },
+    },
     {
       /**
        * Fix Storybook issue with PostCSS@8

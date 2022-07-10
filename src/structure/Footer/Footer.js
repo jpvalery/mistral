@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import React from "react";
 
 import GitHub from "../../elements/icons/Github";
 import Instagram from "../../elements/icons/Instagram";

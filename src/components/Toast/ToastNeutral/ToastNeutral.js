@@ -1,5 +1,6 @@
 import { BellIcon } from "@heroicons/react/solid";
 import PropTypes from "prop-types";
+import React from "react";
 
 export default function ToastNeutral({ message }) {
   return (

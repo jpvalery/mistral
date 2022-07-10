@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Header1({ children }) {
   return (
     <h1 className="font-serif text-4xl font-extrabold tracking-tight text-white">

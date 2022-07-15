@@ -21,6 +21,8 @@
     "@heroicons/react": "^1.0.6",
     "@tailwindcss/typography": "^0.5.2",
     "comma-number": "^2.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.1.4"
   },
@@ -56,10 +58,6 @@
     "rollup-plugin-postcss": "^4.0.2",
     "tailwindcss": "^3.1.4",
     "util": "^0.12.4"
-  },
-  "peerDependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
   },
   "resolutions": {
     "webpack": "^5"

@@ -13,17 +13,23 @@ import {
   ArrowNarrowLeftIcon,
   ArrowNarrowRightIcon,
   ArrowNarrowUpIcon,
-  ArrowRightIcon, ArrowsExpandIcon, ArrowSmDownIcon,
+  ArrowRightIcon,
+  ArrowsExpandIcon,
+  ArrowSmDownIcon,
   ArrowSmLeftIcon,
   ArrowSmRightIcon,
   ArrowSmUpIcon,
-  ArrowUpIcon, AtSymbolIcon,
+  ArrowUpIcon,
+  AtSymbolIcon,
   BackspaceIcon,
   BadgeCheckIcon,
   BanIcon,
   BeakerIcon,
-  BellIcon, BookmarkAltIcon,
-  BookmarkIcon, BookOpenIcon, BriefcaseIcon,
+  BellIcon,
+  BookmarkAltIcon,
+  BookmarkIcon,
+  BookOpenIcon,
+  BriefcaseIcon,
   CakeIcon,
   CalculatorIcon,
   CalendarIcon,
@@ -222,7 +228,7 @@ import {
   XCircleIcon,
   XIcon,
   ZoomInIcon,
-  ZoomOutIcon
+  ZoomOutIcon,
 } from "@heroicons/react/outline";
 import React from "react";
 
@@ -241,13 +247,15 @@ export default function Icon(props) {
   else if (props.icon == "ArchiveIcon") return <ArchiveIcon />;
   else if (props.icon == "ArrowCircleDownIcon") return <ArrowCircleDownIcon />;
   else if (props.icon == "ArrowCircleLeftIcon") return <ArrowCircleLeftIcon />;
-  else if (props.icon == "ArrowCircleRightIcon") return <ArrowCircleRightIcon />;
+  else if (props.icon == "ArrowCircleRightIcon")
+    return <ArrowCircleRightIcon />;
   else if (props.icon == "ArrowCircleUpIcon") return <ArrowCircleUpIcon />;
   else if (props.icon == "ArrowDownIcon") return <ArrowDownIcon />;
   else if (props.icon == "ArrowLeftIcon") return <ArrowLeftIcon />;
   else if (props.icon == "ArrowNarrowDownIcon") return <ArrowNarrowDownIcon />;
   else if (props.icon == "ArrowNarrowLeftIcon") return <ArrowNarrowLeftIcon />;
-  else if (props.icon == "ArrowNarrowRightIcon") return <ArrowNarrowRightIcon />;
+  else if (props.icon == "ArrowNarrowRightIcon")
+    return <ArrowNarrowRightIcon />;
   else if (props.icon == "ArrowNarrowUpIcon") return <ArrowNarrowUpIcon />;
   else if (props.icon == "ArrowRightIcon") return <ArrowRightIcon />;
   else if (props.icon == "ArrowSmDownIcon") return <ArrowSmDownIcon />;
@@ -279,9 +287,12 @@ export default function Icon(props) {
   else if (props.icon == "ChatIcon") return <ChatIcon />;
   else if (props.icon == "CheckCircleIcon") return <CheckCircleIcon />;
   else if (props.icon == "CheckIcon") return <CheckIcon />;
-  else if (props.icon == "ChevronDoubleDownIcon") return <ChevronDoubleDownIcon />;
-  else if (props.icon == "ChevronDoubleLeftIcon") return <ChevronDoubleLeftIcon />;
-  else if (props.icon == "ChevronDoubleRightIcon") return <ChevronDoubleRightIcon />;
+  else if (props.icon == "ChevronDoubleDownIcon")
+    return <ChevronDoubleDownIcon />;
+  else if (props.icon == "ChevronDoubleLeftIcon")
+    return <ChevronDoubleLeftIcon />;
+  else if (props.icon == "ChevronDoubleRightIcon")
+    return <ChevronDoubleRightIcon />;
   else if (props.icon == "ChevronDoubleUpIcon") return <ChevronDoubleUpIcon />;
   else if (props.icon == "ChevronDownIcon") return <ChevronDownIcon />;
   else if (props.icon == "ChevronLeftIcon") return <ChevronLeftIcon />;
@@ -316,8 +327,10 @@ export default function Icon(props) {
   else if (props.icon == "DeviceMobileIcon") return <DeviceMobileIcon />;
   else if (props.icon == "DeviceTabletIcon") return <DeviceTabletIcon />;
   else if (props.icon == "DocumentAddIcon") return <DocumentAddIcon />;
-  else if (props.icon == "DocumentDownloadIcon") return <DocumentDownloadIcon />;
-  else if (props.icon == "DocumentDuplicateIcon") return <DocumentDuplicateIcon />;
+  else if (props.icon == "DocumentDownloadIcon")
+    return <DocumentDownloadIcon />;
+  else if (props.icon == "DocumentDuplicateIcon")
+    return <DocumentDuplicateIcon />;
   else if (props.icon == "DocumentIcon") return <DocumentIcon />;
   else if (props.icon == "DocumentRemoveIcon") return <DocumentRemoveIcon />;
   else if (props.icon == "DocumentReportIcon") return <DocumentReportIcon />;
@@ -331,7 +344,8 @@ export default function Icon(props) {
   else if (props.icon == "DuplicateIcon") return <DuplicateIcon />;
   else if (props.icon == "EmojiHappyIcon") return <EmojiHappyIcon />;
   else if (props.icon == "EmojiSadIcon") return <EmojiSadIcon />;
-  else if (props.icon == "ExclamationCircleIcon") return <ExclamationCircleIcon />;
+  else if (props.icon == "ExclamationCircleIcon")
+    return <ExclamationCircleIcon />;
   else if (props.icon == "ExclamationIcon") return <ExclamationIcon />;
   else if (props.icon == "ExternalLinkIcon") return <ExternalLinkIcon />;
   else if (props.icon == "EyeIcon") return <EyeIcon />;
@@ -357,7 +371,8 @@ export default function Icon(props) {
   else if (props.icon == "IdentificationIcon") return <IdentificationIcon />;
   else if (props.icon == "InboxIcon") return <InboxIcon />;
   else if (props.icon == "InboxInIcon") return <InboxInIcon />;
-  else if (props.icon == "InformationCircleIcon") return <InformationCircleIcon />;
+  else if (props.icon == "InformationCircleIcon")
+    return <InformationCircleIcon />;
   else if (props.icon == "KeyIcon") return <KeyIcon />;
   else if (props.icon == "LibraryIcon") return <LibraryIcon />;
   else if (props.icon == "LightBulbIcon") return <LightBulbIcon />;
@@ -405,7 +420,8 @@ export default function Icon(props) {
   else if (props.icon == "PrinterIcon") return <PrinterIcon />;
   else if (props.icon == "PuzzleIcon") return <PuzzleIcon />;
   else if (props.icon == "QrcodeIcon") return <QrcodeIcon />;
-  else if (props.icon == "QuestionMarkCircleIcon") return <QuestionMarkCircleIcon />;
+  else if (props.icon == "QuestionMarkCircleIcon")
+    return <QuestionMarkCircleIcon />;
   else if (props.icon == "ReceiptRefundIcon") return <ReceiptRefundIcon />;
   else if (props.icon == "ReceiptTaxIcon") return <ReceiptTaxIcon />;
   else if (props.icon == "RefreshIcon") return <RefreshIcon />;
@@ -422,7 +438,8 @@ export default function Icon(props) {
   else if (props.icon == "ServerIcon") return <ServerIcon />;
   else if (props.icon == "ShareIcon") return <ShareIcon />;
   else if (props.icon == "ShieldCheckIcon") return <ShieldCheckIcon />;
-  else if (props.icon == "ShieldExclamationIcon") return <ShieldExclamationIcon />;
+  else if (props.icon == "ShieldExclamationIcon")
+    return <ShieldExclamationIcon />;
   else if (props.icon == "ShoppingBagIcon") return <ShoppingBagIcon />;
   else if (props.icon == "ShoppingCartIcon") return <ShoppingCartIcon />;
   else if (props.icon == "SortAscendingIcon") return <SortAscendingIcon />;
@@ -435,7 +452,8 @@ export default function Icon(props) {
   else if (props.icon == "StopIcon") return <StopIcon />;
   else if (props.icon == "SunIcon") return <SunIcon />;
   else if (props.icon == "SupportIcon") return <SupportIcon />;
-  else if (props.icon == "SwitchHorizontalIcon") return <SwitchHorizontalIcon />;
+  else if (props.icon == "SwitchHorizontalIcon")
+    return <SwitchHorizontalIcon />;
   else if (props.icon == "SwitchVerticalIcon") return <SwitchVerticalIcon />;
   else if (props.icon == "TableIcon") return <TableIcon />;
   else if (props.icon == "TagIcon") return <TagIcon />;

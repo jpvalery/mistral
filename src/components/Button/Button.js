@@ -19,7 +19,7 @@ export default function Button({
       return (
         <NextLink href={url}>
           <div
-            className={`flex min-w-fit items-center justify-start gap-2 rounded-md border border-transparent ${
+            className={`flex min-w-fit items-center justify-start gap-2 rounded-md ${
               theme == "light" && "bg-gray-100 text-gray-900"
             } ${theme == "dark" && "bg-zinc-800 text-zinc-100"} ${
               color && `hover:bg-${color}-500 focus:ring-${color}-500`
@@ -46,7 +46,7 @@ export default function Button({
         return (
           <a href={url}>
             <div
-              className={`flex min-w-fit items-center justify-start gap-2 rounded-md border border-transparent ${
+              className={`flex min-w-fit items-center justify-start gap-2 rounded-md ${
                 theme == "light" && "bg-gray-100 text-gray-900"
               } ${theme == "dark" && "bg-zinc-800 text-zinc-100"} ${
                 color && `hover:bg-${color}-500 focus:ring-${color}-500`
@@ -74,7 +74,7 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`flex items-center justify-between gap-2 rounded-md border border-transparent ${
+        className={`flex items-center justify-between gap-2 rounded-md ${
           theme == "light" && "bg-gray-100 text-gray-900"
         } ${theme == "dark" && "bg-zinc-800 text-zinc-100"} ${
           color && `hover:bg-${color}-500 focus:ring-${color}-500`

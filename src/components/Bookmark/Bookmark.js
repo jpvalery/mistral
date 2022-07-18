@@ -3,7 +3,7 @@ import NextLink from "next/link";
 import PropTypes from "prop-types";
 import React from "react";
 
-import HeroIcon from "../../elements/icons/DynamicIcon";
+import Icon from "../../elements/icons/Icon";
 
 function IntLink(props) {
   let { href, children, ...rest } = props;
@@ -27,7 +27,7 @@ export default function Bookmark({
       <a href={url} target="_blank">
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
           <span className={`h-10 w-10 flex-shrink-0 text-${color}-500`}>
-            <HeroIcon icon={icon} />
+            <Icon icon={icon} />
           </span>
 
           <div className="ml-4">
@@ -45,7 +45,7 @@ export default function Bookmark({
       <IntLink href={url}>
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
           <span className={`h-10 w-10 flex-shrink-0 text-${color}-500`}>
-            <HeroIcon icon={icon} />
+            <Icon icon={icon} />
           </span>
           <div className="ml-4">
             <p className="text-base font-medium text-stone-100">{title}</p>

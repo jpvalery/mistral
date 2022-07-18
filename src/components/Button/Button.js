@@ -4,7 +4,7 @@ import React from "react";
 import NextLink from "next/link";
 
 import { ArrowNarrowRightIcon, ExternalLinkIcon } from "@heroicons/react/solid";
-import HeroIcon from "../../elements/icons/DynamicIcon";
+import Icon from "../../elements/icons/Icon";
 export default function Button({
   label,
   icon,
@@ -28,7 +28,7 @@ export default function Button({
           >
             {icon && (
               <div className="h-6 w-6">
-                <HeroIcon icon={icon} />
+                <Icon icon={icon} />
               </div>
             )}
             <div>{label}</div>
@@ -55,7 +55,7 @@ export default function Button({
             >
               {icon && (
                 <div className="h-6 w-6">
-                  <HeroIcon icon={icon} />
+                  <Icon icon={icon} />
                 </div>
               )}
               <div>{label}</div>
@@ -83,7 +83,7 @@ export default function Button({
       >
         {icon && (
           <div className="h-6 w-6">
-            <HeroIcon icon={icon} />
+            <Icon icon={icon} />
           </div>
         )}
         <div>{label}</div>

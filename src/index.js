@@ -11,10 +11,10 @@ import Header1 from "../src/elements/headers/Header1/Header1";
 import Header2 from "../src/elements/headers/Header2/Header2";
 import Header3 from "../src/elements/headers/Header3/Header3";
 import Header4 from "../src/elements/headers/Header4/Header4";
-import DynamicIcon from "../src/elements/icons/DynamicIcon";
 import Footer from "../src/structure/Footer/Footer";
 import Header from "../src/structure/Header/Header";
 import MainBody from "../src/structure/MainBody/MainBody";
+import Icon from "./elements/icons/Icon";
 
 import Foo from "./components/foo/foo";
 
@@ -32,7 +32,7 @@ export {
   Header2,
   Header3,
   Header4,
-  DynamicIcon,
+  Icon,
   Footer,
   Header,
   MainBody,

@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 import { Menu, Transition } from "@headlessui/react";
+import NextLink from "next/link";
 import { Fragment } from "react";
 
 import { MenuIcon } from "@heroicons/react/outline";

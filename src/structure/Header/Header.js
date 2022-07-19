@@ -29,10 +29,10 @@ export default function Header({
   mobileCtaUrl,
 }) {
   return (
-    <div className="sticky top-0 z-50 bg-stone-900 bg-opacity-90 pb-4 pt-0 md:pt-4">
+    <div className="sticky top-0 z-50 bg-gradient-to-b from-stone-900 pb-4 pt-0 md:pt-4">
       <div className="mx-auto max-w-4xl text-stone-300">
         <div className="flex items-center justify-between border-b border-stone-400 py-4">
-          <div className="cursor-pointer font-mono text-base font-black uppercase">
+          <div className="cursor-pointer font-mono text-xl font-black uppercase">
             <IntLink href="/">{brand}</IntLink>
           </div>
 
@@ -41,7 +41,7 @@ export default function Header({
               return (
                 <Menu as="div" className="relative inline-block text-left">
                   <div className="hover:text-stone-50">
-                    <Menu.Button className="inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+                    <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                       {menu.title.text}
                       <ChevronDownIcon
                         className="ml-2 -mr-1 h-5 w-5"
@@ -58,7 +58,7 @@ export default function Header({
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-90"
                   >
-                    <Menu.Items className="absolute right-0 mt-2 w-[30rem] origin-top-right gap-8 rounded-md bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="absolute right-0 mt-2 w-[30rem] origin-top-right gap-8 bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <div className="grid grid-flow-row gap-1 p-2">
                         {menu.items.map((item) => {
                           return (
@@ -97,7 +97,7 @@ export default function Header({
           <div className="flex md:hidden">
             <Menu as="div" className="relative inline-block text-left">
               <div className="hover:text-stone-50">
-                <Menu.Button className="inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+                <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                   <span className="sr-only">Open menu</span>
                   <MenuIcon className="h-8 w-8" />
                 </Menu.Button>
@@ -111,7 +111,7 @@ export default function Header({
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-90"
               >
-                <Menu.Items className="absolute right-0 mt-2 w-72 origin-top-right gap-8 rounded-md bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:w-96">
+                <Menu.Items className="absolute right-0 mt-2 w-72 origin-top-right gap-8 bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:w-96">
                   <div className="grid grid-flow-row gap-1 p-2">
                     {menus.map((menu) => {
                       return (

@@ -80,7 +80,7 @@ export default function Footer({ displaySocial, socialSelection }) {
             <div className="flex justify-center space-x-6 md:order-2">
               <a
                 href="https://instagram.com/jpvalery"
-                className="hover:text-accent h-6 w-6 text-gray-400"
+                className="h-6 w-6 hover:text-stone-200"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />

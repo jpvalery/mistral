@@ -25,7 +25,7 @@ export default function Bookmark({
   if (urlExternal == true) {
     return (
       <a href={url} target="_blank">
-        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
+        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
           <span
             className={`h-10 w-10 flex-shrink-0
                 ${color == "slate" ? "text-slate-500" : ""}
@@ -55,7 +55,7 @@ export default function Bookmark({
           </span>
 
           <div className="ml-4">
-            <p className="inline-flex text-base font-medium text-stone-100">
+            <p className="inline-flex text-base font-medium text-stone-50">
               {title}
               <ExternalLinkIcon className="mt-1 ml-2 h-4 w-4 text-stone-200" />
             </p>
@@ -67,7 +67,7 @@ export default function Bookmark({
   } else {
     return (
       <IntLink href={url}>
-        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-lg bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
+        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 hover:bg-zinc-600">
           <span
             className={`h-10 w-10 flex-shrink-0
                 ${color == "slate" ? "text-slate-500" : ""}
@@ -96,7 +96,7 @@ export default function Bookmark({
             <Icon icon={icon} />
           </span>
           <div className="ml-4">
-            <p className="text-base font-medium text-stone-100">{title}</p>
+            <p className="text-base font-medium text-stone-50">{title}</p>
             <p className="mt-1 text-sm text-stone-400">{description}</p>
           </div>
         </span>

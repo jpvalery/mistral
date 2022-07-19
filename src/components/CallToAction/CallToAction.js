@@ -24,7 +24,7 @@ export default function CallToAction({
 }) {
   return (
     <div
-      className={`mx-auto flex w-full flex-col gap-6 rounded-lg 
+      className={`mx-auto flex w-full flex-col gap-6 rounded 
       ${color == "slate" ? "bg-slate-900" : ""}
       ${color == "gray" ? "bg-gray-900" : ""}
       ${color == "zinc" ? "bg-zinc-900" : ""}
@@ -50,7 +50,7 @@ export default function CallToAction({
     >
       <div className="flex-grow md:pr-6">
         <h2 className="pb-4 text-3xl font-extrabold text-white">{title}</h2>
-        <p className="text-lg text-stone-200">{description}</p>
+        <p className="text-lg text-stone-100">{description}</p>
       </div>
       <div>
         <div className="grid grid-rows-2 gap-4">

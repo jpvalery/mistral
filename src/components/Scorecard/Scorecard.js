@@ -7,14 +7,14 @@ export default function Scorecard({ header, link, metric, color }) {
   const number = format(metric);
 
   return (
-    <div className="metric-card max-w-md overflow-hidden rounded-lg bg-stone-800 p-5 shadow">
+    <div className="metric-card max-w-md overflow-hidden rounded bg-stone-800 p-5 shadow">
       <a
         aria-label={header}
         target="_blank"
         rel="noopener noreferrer"
         href={link}
       >
-        <div className="flex items-center pb-2 text-stone-200">
+        <div className="flex items-center pb-2 text-stone-50">
           <p className="text-lg font-medium">{header}</p>
           <ExternalLinkIcon className="ml-2 h-4 w-4" />
         </div>

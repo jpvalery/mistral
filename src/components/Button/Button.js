@@ -19,7 +19,7 @@ export default function Button({
       return (
         <NextLink href={url}>
           <div
-            className={`flex min-w-fit items-center justify-start gap-2 rounded-md 
+            className={`flex min-w-fit items-center justify-start gap-2 rounded 
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${color == "slate" ? "hover:bg-slate-500 focus:ring-slate-500" : ""}
@@ -80,7 +80,7 @@ export default function Button({
             )}
             <div>{label}</div>
             {destination == "external" && (
-              <ExternalLinkIcon className="h-4 w-4" />
+              <ExternalLinkIcon className={`h-4 w-4`} />
             )}
             {destination == "step" && (
               <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
@@ -93,7 +93,7 @@ export default function Button({
         return (
           <a href={url}>
             <div
-              className={`flex min-w-fit items-center justify-start gap-2 rounded-md 
+              className={`flex min-w-fit items-center justify-start gap-2 rounded 
                           ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${color == "slate" ? "hover:bg-slate-500 focus:ring-slate-500" : ""}
@@ -154,7 +154,7 @@ export default function Button({
               )}
               <div>{label}</div>
               {destination == "external" && (
-                <ExternalLinkIcon className="h-4 w-4" />
+                <ExternalLinkIcon className={`h-4 w-4`} />
               )}
               {destination == "step" && (
                 <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
@@ -168,7 +168,7 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`flex items-center justify-between gap-2 rounded-md 
+        className={`flex items-center justify-between gap-2 rounded 
                     ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${color == "slate" ? "hover:bg-slate-500 focus:ring-slate-500" : ""}
@@ -228,7 +228,9 @@ export default function Button({
           </div>
         )}
         <div>{label}</div>
-        {destination == "external" && <ExternalLinkIcon className="h-4 w-4" />}
+        {destination == "external" && (
+          <ExternalLinkIcon className={`h-4 w-4`} />
+        )}
         {destination == "step" && (
           <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
         )}

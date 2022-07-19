@@ -10,6 +10,15 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 import Bookmark from "../../components/Bookmark/Bookmark";
 import Button from "../../components/Button/Button";
 
+function IntLink(props) {
+  let { href, children, ...rest } = props;
+  return (
+    <NextLink href={href}>
+      <a {...rest}>{children}</a>
+    </NextLink>
+  );
+}
+
 export default function Header({
   brand,
   menus,
@@ -23,7 +32,7 @@ export default function Header({
       <div className="mx-auto max-w-4xl text-stone-300">
         <div className="flex items-center justify-between border-b border-stone-400 py-4">
           <div className="cursor-pointer font-mono text-base font-black uppercase">
-            {brand}
+            <IntLink href="/">{brand}</IntLink>
           </div>
 
           <div className="hidden md:flex">

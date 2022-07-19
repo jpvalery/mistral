@@ -16,8 +16,6 @@ import Header from "../src/structure/Header/Header";
 import MainBody from "../src/structure/MainBody/MainBody";
 import Icon from "./elements/icons/Icon";
 
-import Foo from "./components/foo/foo";
-
 export {
   Bookmark,
   Button,
@@ -36,5 +34,4 @@ export {
   Footer,
   Header,
   MainBody,
-  Foo,
 };

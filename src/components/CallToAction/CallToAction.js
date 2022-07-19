@@ -24,7 +24,29 @@ export default function CallToAction({
 }) {
   return (
     <div
-      className={`mx-auto flex w-full flex-col gap-6 rounded-lg bg-${color}-900 p-12 md:flex-row md:gap-12`}
+      className={`mx-auto flex w-full flex-col gap-6 rounded-lg 
+      ${color == "slate" ? "bg-slate-900" : ""}
+      ${color == "gray" ? "bg-gray-900" : ""}
+      ${color == "zinc" ? "bg-zinc-900" : ""}
+      ${color == "neutral" ? "bg-neutral-900" : ""}
+      ${color == "stone" ? "bg-stone-900" : ""}
+      ${color == "red" ? "bg-red-900" : ""}
+      ${color == "orange" ? "bg-orange-900" : ""}
+      ${color == "amber" ? "bg-amber-900" : ""}
+      ${color == "lime" ? "bg-lime-900" : ""}
+      ${color == "green" ? "bg-green-900" : ""}
+      ${color == "emerald" ? "bg-emerald-900" : ""}
+      ${color == "teal" ? "bg-teal-900" : ""}
+      ${color == "cyan" ? "bg-cyan-900" : ""}
+      ${color == "sky" ? "bg-sky-900" : ""}
+      ${color == "blue" ? "bg-blue-900" : ""}
+      ${color == "indigo" ? "bg-indigo-900" : ""}
+      ${color == "violet" ? "bg-violet-900" : ""}
+      ${color == "purple" ? "bg-purple-900" : ""}
+      ${color == "fuchsia" ? "bg-fuchsia-900" : ""}
+      ${color == "pink" ? "bg-pink-900" : ""}
+      ${color == "rose" ? "bg-rose-900" : ""}
+      p-12 md:flex-row md:gap-12`}
     >
       <div className="flex-grow md:pr-6">
         <h2 className="pb-4 text-3xl font-extrabold text-white">{title}</h2>

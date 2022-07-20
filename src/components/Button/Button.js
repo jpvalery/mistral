@@ -13,13 +13,16 @@ export default function Button({
   color,
   theme,
   url,
+  maxW,
 }) {
   if (url) {
     if (url.charAt(0) == "/") {
       return (
         <NextLink href={url}>
           <div
-            className={`flex max-w-fit items-center justify-start gap-2 rounded
+            className={`flex ${
+              maxW == true ? "min-w-fit" : "max-w-fit"
+            } cursor-pointer items-center justify-start gap-2 rounded
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
@@ -149,7 +152,9 @@ export default function Button({
         return (
           <a href={url}>
             <div
-              className={`flex max-w-fit items-center justify-start gap-2 rounded 
+              className={`flex ${
+                maxW == true ? "min-w-fit" : "max-w-fit"
+              } cursor-pointer items-center justify-start gap-2 rounded 
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
@@ -280,7 +285,9 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`flex max-w-fit items-center justify-start gap-2 rounded
+        className={`flex ${
+          maxW == true ? "min-w-fit" : "max-w-fit"
+        } cursor-pointer items-center justify-start gap-2 rounded
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
@@ -415,10 +422,12 @@ Button.propTypes = {
   destination: PropTypes.oneOf(["external", "step"]),
   color: PropTypes.string,
   theme: PropTypes.oneOf(["dark", "light"]),
+  maxW: PropTypes.bool,
 };
 
 Button.defaultProps = {
   onClick: undefined,
   theme: "light",
   color: "green",
+  maxW: false,
 };

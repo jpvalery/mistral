@@ -82,6 +82,7 @@ export default function Header({
                             icon="InboxInIcon"
                             label={menu.cta.text}
                             url={menu.cta.url}
+                            maxW
                           />
                         )}
                       </div>
@@ -137,6 +138,7 @@ export default function Header({
                       icon={mobileCtaIcon}
                       label={mobileCtaLabel}
                       url={mobileCtaUrl}
+                      maxW
                     />
                   </div>
                 </Menu.Items>

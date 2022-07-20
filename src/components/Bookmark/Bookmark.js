@@ -27,7 +27,9 @@ export default function Bookmark({
       <a href={url} target="_blank">
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
           <span
-            className={`h-10 w-10 flex-shrink-0 
+            className={`h-10 w-10 ${
+              icon == "Growth" ? "text-center" : ""
+            } flex-shrink-0 
               ${
                 color == "slate"
                   ? "text-slate-500 drop-shadow-[0_0_1rem_#F1F5F960]"
@@ -153,12 +155,14 @@ export default function Bookmark({
       <IntLink href={url}>
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
           <span
-            className={`h-10 w-10 flex-shrink-0 
-                              ${
-                                color == "slate"
-                                  ? "text-slate-500 drop-shadow-[0_0_1rem_#F1F5F960]"
-                                  : ""
-                              }
+            className={`h-10 w-10 ${
+              icon == "Growth" ? "text-center" : ""
+            } flex-shrink-0 
+              ${
+                color == "slate"
+                  ? "text-slate-500 drop-shadow-[0_0_1rem_#F1F5F960]"
+                  : ""
+              }
               ${
                 color == "gray"
                   ? "text-gray-500 drop-shadow-[0_0_1rem_#F3F4F660]"

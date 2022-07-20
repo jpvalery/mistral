@@ -238,9 +238,7 @@ export default function Icon(props) {
   if (props.icon == "Unsplash") {
     return <Unsplash />;
   } else if (props.icon == "Growth") {
-    return (
-      <span className="h-8 w-8 text-center text-4xl text-emerald-500">𝔊</span>
-    );
+    return <span className="h-8 w-8 text-4xl text-emerald-500">𝔊</span>;
   } else if (props.icon == "AcademicCapIcon")
     return (
       <AcademicCapIcon

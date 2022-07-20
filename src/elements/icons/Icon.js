@@ -228,7 +228,7 @@ import {
   XCircleIcon,
   XIcon,
   ZoomInIcon,
-  ZoomOutIcon
+  ZoomOutIcon,
 } from "@heroicons/react/outline";
 import React from "react";
 
@@ -239,7 +239,7 @@ export default function Icon(props) {
     return <Unsplash />;
   } else if (props.icon == "Growth") {
     return (
-      <span className="text-emerald-500 h-8 w-8 text-center text-4xl">𝔊</span>
+      <span className="h-8 w-8 text-center text-4xl text-emerald-500">𝔊</span>
     );
   } else if (props.icon == "AcademicCapIcon")
     return (

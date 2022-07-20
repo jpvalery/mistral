@@ -46,7 +46,7 @@ export default function CallToAction({
       ${color == "fuchsia" ? "bg-fuchsia-900" : ""}
       ${color == "pink" ? "bg-pink-900" : ""}
       ${color == "rose" ? "bg-rose-900" : ""}
-      p-12 md:flex-row md:gap-12`}
+      p-12 shadow-xl shadow-zinc-900/20  md:flex-row md:gap-12`}
     >
       <div className="flex-grow md:pr-6">
         <h2 className="pb-4 text-3xl font-extrabold text-white">{title}</h2>

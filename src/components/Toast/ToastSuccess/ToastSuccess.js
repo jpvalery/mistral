@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ToastSuccess({ message }) {
   return (
-    <div className="w-full rounded-md bg-green-50 p-4">
+    <div className="w-full rounded-md bg-green-50 p-4 shadow-xl shadow-green-500/5">
       <div className="flex">
         <div className="flex-shrink-0">
           <CheckCircleIcon className="h-5 w-5 text-green-400" />

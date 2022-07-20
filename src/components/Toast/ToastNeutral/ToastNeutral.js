@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ToastNeutral({ message }) {
   return (
-    <div className="w-full rounded-md bg-yellow-50 p-4">
+    <div className="w-full rounded-md bg-yellow-50 p-4 shadow-xl shadow-yellow-500/5">
       <div className="flex">
         <div className="flex-shrink-0">
           <BellIcon className="h-5 w-5 text-yellow-500" />

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ToastFailure({ message }) {
   return (
-    <div className="w-full rounded-md bg-red-50 p-4">
+    <div className="w-full rounded-md bg-red-50 p-4 shadow-xl shadow-red-500/5">
       <div className="flex">
         <div className="flex-shrink-0">
           <ExclamationCircleIcon className="h-5 w-5 text-red-400" />

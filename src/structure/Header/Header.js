@@ -31,7 +31,7 @@ export default function Header({
   return (
     <div className="sticky top-0 z-50 bg-gradient-to-b from-stone-900 pb-4 pt-0 md:pt-4">
       <div className="mx-auto max-w-4xl text-stone-300">
-        <div className="flex items-center justify-between border-b border-stone-400 py-4">
+        <div className="flex items-center justify-between py-4">
           <div className="cursor-pointer font-mono text-xl font-black uppercase">
             <IntLink href="/">{brand}</IntLink>
           </div>
@@ -58,8 +58,8 @@ export default function Header({
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-90"
                   >
-                    <Menu.Items className="absolute right-0 mt-2 w-[30rem] origin-top-right gap-8 bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <div className="grid grid-flow-row gap-1 p-2">
+                    <Menu.Items className="absolute right-0 mt-2 w-[30rem] origin-top-right gap-8 rounded-[0.75rem] bg-zinc-900 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <div className="grid grid-flow-row gap-2 p-2">
                         {menu.items.map((item) => {
                           return (
                             <Menu.Item>
@@ -77,14 +77,12 @@ export default function Header({
                           );
                         })}
                         {menu.cta && (
-                          <div className="py-2">
-                            <Button
-                              color="emerald"
-                              icon="InboxInIcon"
-                              label={menu.cta.text}
-                              url={menu.cta.url}
-                            />
-                          </div>
+                          <Button
+                            color="emerald"
+                            icon="InboxInIcon"
+                            label={menu.cta.text}
+                            url={menu.cta.url}
+                          />
                         )}
                       </div>
                     </Menu.Items>
@@ -111,7 +109,7 @@ export default function Header({
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-90"
               >
-                <Menu.Items className="absolute right-0 mt-2 w-72 origin-top-right gap-8 bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:w-96">
+                <Menu.Items className="absolute right-0 mt-2 w-72 origin-top-right gap-8 rounded-[0.75rem] bg-zinc-900 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:w-96">
                   <div className="grid grid-flow-row gap-1 p-2">
                     {menus.map((menu) => {
                       return (
@@ -134,14 +132,12 @@ export default function Header({
                         </>
                       );
                     })}
-                    <div className="py-2">
-                      <Button
-                        color={mobileCtaColor}
-                        icon={mobileCtaIcon}
-                        label={mobileCtaLabel}
-                        url={mobileCtaUrl}
-                      />
-                    </div>
+                    <Button
+                      color={mobileCtaColor}
+                      icon={mobileCtaIcon}
+                      label={mobileCtaLabel}
+                      url={mobileCtaUrl}
+                    />
                   </div>
                 </Menu.Items>
               </Transition>

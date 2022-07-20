@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 
 export default function ProjectCard({ icon, title, years, link, description }) {
   return (
-    <div className="divide-y divide-stone-200 overflow-hidden rounded shadow">
+    <div className="divide-y divide-stone-200 overflow-hidden rounded shadow-xl shadow-zinc-900/20">
       <div className="bg-stone-800 px-4 py-5 sm:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-between gap-4 text-stone-50">

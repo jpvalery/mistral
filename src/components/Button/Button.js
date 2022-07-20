@@ -19,7 +19,7 @@ export default function Button({
       return (
         <NextLink href={url}>
           <div
-            className={`flex min-w-fit items-center justify-start gap-2 rounded 
+            className={`flex max-w-fit items-center justify-start gap-2 rounded 
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
@@ -149,7 +149,7 @@ export default function Button({
         return (
           <a href={url}>
             <div
-              className={`flex min-w-fit items-center justify-start gap-2 rounded 
+              className={`flex max-w-fit items-center justify-start gap-2 rounded 
                           ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${

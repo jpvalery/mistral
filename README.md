@@ -4,4 +4,15 @@ Mistral is the component library I built for my projects both as a challenge and
 
 ## Installing
 
+Start by adding the dependency
 `yarn add @jpvalery/mistral`
+
+Update `tailwind.config.js` in your project to include the library files in `content`:
+
+```
+module.exports = {
+  content: [
+    ...
+    "./node_modules/@jpvalery/mistral/**/*.js"
+  ],
+```

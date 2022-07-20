@@ -27,7 +27,7 @@ export default function Bookmark({
       <a href={url} target="_blank">
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
           <span
-            className={`h-10 w-10 flex-shrink-0
+            className={`h-10 w-10 flex-shrink-0 
                 ${color == "slate" ? "text-slate-500" : ""}
                 ${color == "gray" ? "text-gray-500" : ""}
                 ${color == "zinc" ? "text-zinc-500" : ""}
@@ -51,7 +51,7 @@ export default function Bookmark({
                 ${color == "rose" ? "text-rose-500" : ""}
               `}
           >
-            <Icon icon={icon} />
+            <Icon icon={icon} stroke={"1"}/>
           </span>
 
           <div className="ml-4">
@@ -69,7 +69,7 @@ export default function Bookmark({
       <IntLink href={url}>
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
           <span
-            className={`h-10 w-10 flex-shrink-0
+            className={`h-10 w-10 flex-shrink-0 
                 ${color == "slate" ? "text-slate-500" : ""}
                 ${color == "gray" ? "text-gray-500" : ""}
                 ${color == "zinc" ? "text-zinc-500" : ""}
@@ -93,7 +93,7 @@ export default function Bookmark({
                 ${color == "rose" ? "text-rose-500" : ""}
               `}
           >
-            <Icon icon={icon} />
+            <Icon icon={icon} stroke={"1"} />
           </span>
           <div className="ml-4">
             <p className="text-base font-medium text-stone-50">{title}</p>

@@ -11,7 +11,7 @@ export default function ProjectCard({ icon, title, years, link, description }) {
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-between gap-4 text-stone-50">
             <span className="h-8 w-8">
-              <Icon icon={icon} />
+              <Icon icon={icon} stroke="1" />
             </span>
             <h2 className="text-2xl font-bold">{title}</h2>
             <span className="text-sm font-medium">({years || "-"})</span>

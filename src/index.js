@@ -3,6 +3,7 @@ import Button from "../src/components/Button/Button";
 import CallToAction from "../src/components/CallToAction/CallToAction";
 import LogoGrid from "../src/components/LogoGrid/LogoGrid";
 import Post from "../src/components/Post/Post";
+import ProjectCard from "../src/components/ProjectCard/ProjectCard";
 import Scorecard from "../src/components/Scorecard/Scorecard";
 import ToastFailure from "../src/components/Toast/ToastFailure/ToastFailure";
 import ToastNeutral from "../src/components/Toast/ToastNeutral/ToastNeutral";
@@ -22,6 +23,7 @@ export {
   CallToAction,
   LogoGrid,
   Post,
+  ProjectCard,
   Scorecard,
   ToastFailure,
   ToastNeutral,

@@ -135,6 +135,11 @@ export default function Bookmark({
                   ? "text-rose-500 drop-shadow-[0_0_1rem_#FFE4E660]"
                   : ""
               }
+              ${
+                color == "accent"
+                  ? "text-[#D8D8C7] drop-shadow-[0_0_1rem_#D8D8C730]"
+                  : ""
+              }
               `}
           >
             <Icon icon={icon} stroke={"1"} />
@@ -261,6 +266,11 @@ export default function Bookmark({
               ${
                 color == "rose"
                   ? "text-rose-500 drop-shadow-[0_0_1rem_#FFE4E660]"
+                  : ""
+              }
+              ${
+                color == "accent"
+                  ? "text-[#D8D8C7] drop-shadow-[0_0_1rem_#D8D8C730]"
                   : ""
               }
               `}

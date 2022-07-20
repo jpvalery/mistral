@@ -28,30 +28,114 @@ export default function Bookmark({
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
           <span
             className={`h-10 w-10 flex-shrink-0 
-                ${color == "slate" ? "text-slate-500" : ""}
-                ${color == "gray" ? "text-gray-500" : ""}
-                ${color == "zinc" ? "text-zinc-500" : ""}
-                ${color == "neutral" ? "text-neutral-500" : ""}
-                ${color == "stone" ? "text-stone-500" : ""}
-                ${color == "red" ? "text-red-500" : ""}
-                ${color == "orange" ? "text-orange-500" : ""}
-                ${color == "amber" ? "text-amber-500" : ""}
-                ${color == "lime" ? "text-lime-500" : ""}
-                ${color == "green" ? "text-green-500" : ""}
-                ${color == "emerald" ? "text-emerald-500" : ""}
-                ${color == "teal" ? "text-teal-500" : ""}
-                ${color == "cyan" ? "text-cyan-500" : ""}
-                ${color == "sky" ? "text-sky-500" : ""}
-                ${color == "blue" ? "text-blue-500" : ""}
-                ${color == "indigo" ? "text-indigo-500" : ""}
-                ${color == "violet" ? "text-violet-500" : ""}
-                ${color == "purple" ? "text-purple-500" : ""}
-                ${color == "fuchsia" ? "text-fuchsia-500" : ""}
-                ${color == "pink" ? "text-pink-500" : ""}
-                ${color == "rose" ? "text-rose-500" : ""}
+              ${
+                color == "slate"
+                  ? "text-slate-500 drop-shadow-[0_0_1rem_#F1F5F960]"
+                  : ""
+              }
+              ${
+                color == "gray"
+                  ? "text-gray-500 drop-shadow-[0_0_1rem_#F3F4F660]"
+                  : ""
+              }
+              ${
+                color == "zinc"
+                  ? "text-zinc-500 drop-shadow-[0_0_1rem_#F4F4F560]"
+                  : ""
+              }
+              ${
+                color == "neutral"
+                  ? "text-neutral-500 drop-shadow-[0_0_1rem_#F5F5F560]"
+                  : ""
+              }
+              ${
+                color == "stone"
+                  ? "text-stone-500 drop-shadow-[0_0_1rem_#F5F5F460]"
+                  : ""
+              }
+              ${
+                color == "red"
+                  ? "text-red-500 drop-shadow-[0_0_1rem_#FECACA60]"
+                  : ""
+              }
+              ${
+                color == "orange"
+                  ? "text-orange-500 drop-shadow-[0_0_1rem_#FFEDD560]"
+                  : ""
+              }
+              ${
+                color == "amber"
+                  ? "text-amber-500 drop-shadow-[0_0_1rem_#FEF3C760]"
+                  : ""
+              }
+              ${
+                color == "lime"
+                  ? "text-lime-500 drop-shadow-[0_0_1rem_#ECFCCB60]"
+                  : ""
+              }
+              ${
+                color == "green"
+                  ? "text-green-500 drop-shadow-[0_0_1rem_#DCFEC760]"
+                  : ""
+              }
+              ${
+                color == "emerald"
+                  ? "text-emerald-500 drop-shadow-[0_0_1rem_#D1FAE560]"
+                  : ""
+              }
+              ${
+                color == "teal"
+                  ? "text-teal-500 drop-shadow-[0_0_1rem_#CCFBF160]"
+                  : ""
+              }
+              ${
+                color == "cyan"
+                  ? "text-cyan-500 drop-shadow-[0_0_1rem_#CFFAFE60]"
+                  : ""
+              }
+              ${
+                color == "sky"
+                  ? "text-sky-500 drop-shadow-[0_0_1rem_#E0F2FE60]"
+                  : ""
+              }
+              ${
+                color == "blue"
+                  ? "text-blue-500 drop-shadow-[0_0_1rem_#DBEAFE60]"
+                  : ""
+              }
+              ${
+                color == "indigo"
+                  ? "text-indigo-500 drop-shadow-[0_0_1rem_#E0E7FF60]"
+                  : ""
+              }
+              ${
+                color == "violet"
+                  ? "text-violet-500 drop-shadow-[0_0_1rem_#EDE9FE60]"
+                  : ""
+              }
+              ${
+                color == "purple"
+                  ? "text-purple-500 drop-shadow-[0_0_1rem_#F3E8FF60]"
+                  : ""
+              }
+              ${
+                color == "fuchsia"
+                  ? "text-fuchsia-500 drop-shadow-[0_0_1rem_#FAE8FF60]"
+                  : ""
+              }
+              ${
+                color == "pink"
+                  ? "text-pink-500 drop-shadow-[0_0_1rem_#FCE7F360]"
+                  : ""
+              }
+              ${
+                color == "rose"
+                  ? "text-rose-500 drop-shadow-[0_0_1rem_#FFE4E660]"
+                  : ""
+              }
               `}
           >
-            <Icon icon={icon} stroke={"1"}/>
+            <Icon icon={icon} stroke={"1"} />
           </span>
 
           <div className="ml-4">
@@ -70,27 +154,111 @@ export default function Bookmark({
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded bg-zinc-800 px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
           <span
             className={`h-10 w-10 flex-shrink-0 
-                ${color == "slate" ? "text-slate-500" : ""}
-                ${color == "gray" ? "text-gray-500" : ""}
-                ${color == "zinc" ? "text-zinc-500" : ""}
-                ${color == "neutral" ? "text-neutral-500" : ""}
-                ${color == "stone" ? "text-stone-500" : ""}
-                ${color == "red" ? "text-red-500" : ""}
-                ${color == "orange" ? "text-orange-500" : ""}
-                ${color == "amber" ? "text-amber-500" : ""}
-                ${color == "lime" ? "text-lime-500" : ""}
-                ${color == "green" ? "text-green-500" : ""}
-                ${color == "emerald" ? "text-emerald-500" : ""}
-                ${color == "teal" ? "text-teal-500" : ""}
-                ${color == "cyan" ? "text-cyan-500" : ""}
-                ${color == "sky" ? "text-sky-500" : ""}
-                ${color == "blue" ? "text-blue-500" : ""}
-                ${color == "indigo" ? "text-indigo-500" : ""}
-                ${color == "violet" ? "text-violet-500" : ""}
-                ${color == "purple" ? "text-purple-500" : ""}
-                ${color == "fuchsia" ? "text-fuchsia-500" : ""}
-                ${color == "pink" ? "text-pink-500" : ""}
-                ${color == "rose" ? "text-rose-500" : ""}
+                              ${
+                                color == "slate"
+                                  ? "text-slate-500 drop-shadow-[0_0_1rem_#F1F5F960]"
+                                  : ""
+                              }
+              ${
+                color == "gray"
+                  ? "text-gray-500 drop-shadow-[0_0_1rem_#F3F4F660]"
+                  : ""
+              }
+              ${
+                color == "zinc"
+                  ? "text-zinc-500 drop-shadow-[0_0_1rem_#F4F4F560]"
+                  : ""
+              }
+              ${
+                color == "neutral"
+                  ? "text-neutral-500 drop-shadow-[0_0_1rem_#F5F5F560]"
+                  : ""
+              }
+              ${
+                color == "stone"
+                  ? "text-stone-500 drop-shadow-[0_0_1rem_#F5F5F460]"
+                  : ""
+              }
+              ${
+                color == "red"
+                  ? "text-red-500 drop-shadow-[0_0_1rem_#FECACA60]"
+                  : ""
+              }
+              ${
+                color == "orange"
+                  ? "text-orange-500 drop-shadow-[0_0_1rem_#FFEDD560]"
+                  : ""
+              }
+              ${
+                color == "amber"
+                  ? "text-amber-500 drop-shadow-[0_0_1rem_#FEF3C760]"
+                  : ""
+              }
+              ${
+                color == "lime"
+                  ? "text-lime-500 drop-shadow-[0_0_1rem_#ECFCCB60]"
+                  : ""
+              }
+              ${
+                color == "green"
+                  ? "text-green-500 drop-shadow-[0_0_1rem_#DCFEC760]"
+                  : ""
+              }
+              ${
+                color == "emerald"
+                  ? "text-emerald-500 drop-shadow-[0_0_1rem_#D1FAE560]"
+                  : ""
+              }
+              ${
+                color == "teal"
+                  ? "text-teal-500 drop-shadow-[0_0_1rem_#CCFBF160]"
+                  : ""
+              }
+              ${
+                color == "cyan"
+                  ? "text-cyan-500 drop-shadow-[0_0_1rem_#CFFAFE60]"
+                  : ""
+              }
+              ${
+                color == "sky"
+                  ? "text-sky-500 drop-shadow-[0_0_1rem_#E0F2FE60]"
+                  : ""
+              }
+              ${
+                color == "blue"
+                  ? "text-blue-500 drop-shadow-[0_0_1rem_#DBEAFE60]"
+                  : ""
+              }
+              ${
+                color == "indigo"
+                  ? "text-indigo-500 drop-shadow-[0_0_1rem_#E0E7FF60]"
+                  : ""
+              }
+              ${
+                color == "violet"
+                  ? "text-violet-500 drop-shadow-[0_0_1rem_#EDE9FE60]"
+                  : ""
+              }
+              ${
+                color == "purple"
+                  ? "text-purple-500 drop-shadow-[0_0_1rem_#F3E8FF60]"
+                  : ""
+              }
+              ${
+                color == "fuchsia"
+                  ? "text-fuchsia-500 drop-shadow-[0_0_1rem_#FAE8FF60]"
+                  : ""
+              }
+              ${
+                color == "pink"
+                  ? "text-pink-500 drop-shadow-[0_0_1rem_#FCE7F360]"
+                  : ""
+              }
+              ${
+                color == "rose"
+                  ? "text-rose-500 drop-shadow-[0_0_1rem_#FFE4E660]"
+                  : ""
+              }
               `}
           >
             <Icon icon={icon} stroke={"1"} />

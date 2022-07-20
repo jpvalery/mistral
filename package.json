@@ -1,6 +1,6 @@
 {
   "name": "@jpvalery/mistral",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "jpvalery's design library",
   "repository": "https://github.com/jpvalery/mistral",
   "author": "@jpvalery <jpvalery@users.noreply.github.com>",
@@ -14,7 +14,8 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release": "rm -rf build && yarn build && yarn publish --access=public"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.5",

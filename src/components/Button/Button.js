@@ -19,7 +19,7 @@ export default function Button({
       return (
         <NextLink href={url}>
           <div
-            className={`flex max-w-fit items-center justify-start gap-2 rounded 
+            className={`flex max-w-fit items-center justify-start gap-2 rounded
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
@@ -150,7 +150,7 @@ export default function Button({
           <a href={url}>
             <div
               className={`flex max-w-fit items-center justify-start gap-2 rounded 
-                          ${theme == "light" && "bg-gray-100 text-gray-900"}
+            ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
               color == "slate"
@@ -280,8 +280,8 @@ export default function Button({
     return (
       <button
         onClick={onClick}
-        className={`flex items-center justify-between gap-2 rounded 
-                    ${theme == "light" && "bg-gray-100 text-gray-900"}
+        className={`flex max-w-fit items-center justify-start gap-2 rounded
+            ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
               color == "slate"

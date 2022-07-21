@@ -1,18 +1,20 @@
 import { ExternalLinkIcon } from "@heroicons/react/solid";
-import NextLink from "next/link";
+import Link from "next/link";
 import PropTypes from "prop-types";
-import React from "react";
+import React, { forwardRef } from "react";
 
 import Icon from "../../elements/icons/Icon";
 
-function IntLink(props) {
+const IntLink = forwardRef((props, ref) => {
   let { href, children, ...rest } = props;
   return (
-    <NextLink href={href}>
-      <a {...rest}>{children}</a>
-    </NextLink>
+    <Link href={href}>
+      <a ref={ref} {...rest}>
+        {children}
+      </a>
+    </Link>
   );
-}
+});
 
 export default function Bookmark({
   title,

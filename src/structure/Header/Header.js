@@ -3,7 +3,6 @@ import React from "react";
 
 import { Menu, Transition } from "@headlessui/react";
 import NextLink from "next/link";
-import { Fragment } from "react";
 
 import { MenuIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
@@ -50,7 +49,6 @@ export default function Header({
                     </Menu.Button>
                   </div>
                   <Transition
-                    as={Fragment}
                     enter="transition ease-out duration-50 transform"
                     enterFrom="opacity-0 scale-90"
                     enterTo="opacity-100 scale-100"
@@ -77,13 +75,15 @@ export default function Header({
                           );
                         })}
                         {menu.cta && (
-                          <Button
-                            color="emerald"
-                            icon="InboxInIcon"
-                            label={menu.cta.text}
-                            url={menu.cta.url}
-                            maxW
-                          />
+                          <Menu.Item>
+                            <Button
+                              color="emerald"
+                              icon="InboxInIcon"
+                              label={menu.cta.text}
+                              url={menu.cta.url}
+                              maxW
+                            />
+                          </Menu.Item>
                         )}
                       </div>
                     </Menu.Items>
@@ -102,7 +102,6 @@ export default function Header({
                 </Menu.Button>
               </div>
               <Transition
-                as={Fragment}
                 enter="transition ease-out duration-50 transform"
                 enterFrom="opacity-0 scale-90"
                 enterTo="opacity-100 scale-100"
@@ -133,13 +132,15 @@ export default function Header({
                         </>
                       );
                     })}
-                    <Button
-                      color={mobileCtaColor}
-                      icon={mobileCtaIcon}
-                      label={mobileCtaLabel}
-                      url={mobileCtaUrl}
-                      maxW
-                    />
+                    <Menu.Item>
+                      <Button
+                        color={mobileCtaColor}
+                        icon={mobileCtaIcon}
+                        label={mobileCtaLabel}
+                        url={mobileCtaUrl}
+                        maxW
+                      />
+                    </Menu.Item>
                   </div>
                 </Menu.Items>
               </Transition>

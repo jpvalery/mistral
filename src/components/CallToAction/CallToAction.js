@@ -24,7 +24,7 @@ export default function CallToAction({
 }) {
   return (
     <div
-      className={`mx-auto flex w-full flex-col gap-6 rounded 
+      className={`mx-auto grid w-full grid-flow-row justify-between rounded-lg border border-zinc-100/50 md:grid-flow-col 
       ${color == "slate" ? "bg-slate-900" : ""}
       ${color == "gray" ? "bg-gray-900" : ""}
       ${color == "zinc" ? "bg-zinc-900" : ""}
@@ -46,35 +46,37 @@ export default function CallToAction({
       ${color == "fuchsia" ? "bg-fuchsia-900" : ""}
       ${color == "pink" ? "bg-pink-900" : ""}
       ${color == "rose" ? "bg-rose-900" : ""}
-      p-12 shadow-xl shadow-zinc-900/20  md:flex-row md:gap-12`}
+      ${color == "" ? "" : ""}
+      p-12 shadow-xl shadow-zinc-900/20  md:flex-row`}
     >
-      <div className="flex-grow md:pr-6">
-        <h2 className="pb-4 text-3xl font-extrabold text-white">{title}</h2>
+      <div className="grid grid-flow-row">
+        <h2 className="text-4xl font-extrabold text-white">{title}</h2>
         <p className="text-lg text-stone-100">{description}</p>
       </div>
-      <div>
-        <div className="grid grid-rows-2 gap-4">
+
+      <div className="grid grid-rows-2 gap-4">
+        <Button
+          destination={ctaPrimaryDestination}
+          icon={ctaPrimaryIcon}
+          label={ctaPrimaryLabel}
+          onClick={ctaPrimaryOnClick}
+          theme={ctaPrimaryTheme}
+          url={ctaPrimaryUrl}
+          color={ctaPrimaryColor}
+          maxW
+        />
+        {ctaSecondaryLabel && (
           <Button
-            destination={ctaPrimaryDestination}
-            icon={ctaPrimaryIcon}
-            label={ctaPrimaryLabel}
-            onClick={ctaPrimaryOnClick}
-            theme={ctaPrimaryTheme}
-            url={ctaPrimaryUrl}
-            color={ctaPrimaryColor}
+            destination={ctaSecondaryDestination}
+            icon={ctaSecondaryIcon}
+            label={ctaSecondaryLabel}
+            onClick={ctaSecondaryOnClick}
+            theme={ctaSecondaryTheme}
+            url={ctaSecondaryUrl}
+            color={ctaSecondaryColor}
+            maxW
           />
-          {ctaSecondaryLabel && (
-            <Button
-              destination={ctaSecondaryDestination}
-              icon={ctaSecondaryIcon}
-              label={ctaSecondaryLabel}
-              onClick={ctaSecondaryOnClick}
-              theme={ctaSecondaryTheme}
-              url={ctaSecondaryUrl}
-              color={ctaSecondaryColor}
-            />
-          )}
-        </div>
+        )}
       </div>
     </div>
   );

@@ -78,7 +78,7 @@ export default function Header({
                           <Menu.Item>
                             <Button
                               color="emerald"
-                              icon="InboxInIcon"
+                              icon="InboxArrowDownIcon"
                               label={menu.cta.text}
                               url={menu.cta.url}
                               maxW

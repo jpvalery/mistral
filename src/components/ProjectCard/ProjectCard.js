@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 
 export default function ProjectCard({ icon, title, years, link, description }) {
   return (
-    <div className="divide-y divide-stone-200 overflow-hidden rounded shadow-lg shadow-zinc-200/5">
+    <div className="divide-y divide-stone-200 overflow-hidden rounded-xl border border-zinc-100 shadow-lg shadow-zinc-200/5">
       <div className="bg-stone-800 px-4 py-5 sm:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-between gap-4 text-stone-50">
@@ -16,19 +16,18 @@ export default function ProjectCard({ icon, title, years, link, description }) {
             <h2 className="text-2xl font-bold">{title}</h2>
             <span className="text-sm font-medium">({years || "-"})</span>
           </div>
-          <div>
-            <Button
-              color="zinc"
-              destination="external"
-              label="Explore"
-              onClick={function noRefCheck() {}}
-              theme="light"
-              url={link}
-            />
-          </div>
+
+          <Button
+            color="zinc"
+            destination="external"
+            label="Explore"
+            onClick={function noRefCheck() {}}
+            url={link}
+            maxW={true}
+          />
         </div>
       </div>
-      <div className="bg-stone-900 p-6 text-stone-100">
+      <div className="bg-stone-900 px-4 py-8 text-stone-100 sm:px-6">
         {description || "-"}
       </div>
     </div>

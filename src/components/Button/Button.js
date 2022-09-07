@@ -5,7 +5,7 @@ import NextLink from "next/link";
 
 import {
   ArrowLongRightIcon,
-  ArrowTopRightOnSquareIcon
+  ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/20/solid";
 import Icon from "../../elements/icons/Icon";
 export default function Button({

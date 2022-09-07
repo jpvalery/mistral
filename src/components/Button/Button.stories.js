@@ -36,7 +36,7 @@ Iconed.args = {
   label: "My Button",
   color: "emerald",
   theme: "light",
-  icon: "InboxInIcon",
+  icon: "InboxArrowDownIcon",
 };
 
 export const Alert = Template.bind({});

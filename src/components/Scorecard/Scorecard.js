@@ -1,4 +1,4 @@
-import { ExternalLinkIcon } from "@heroicons/react/solid";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 import format from "comma-number";
 import PropTypes from "prop-types";
 import React from "react";
@@ -16,7 +16,7 @@ export default function Scorecard({ header, link, metric, color }) {
       >
         <div className="flex items-center pb-2 text-stone-50">
           <p className="text-lg font-medium">{header}</p>
-          <ExternalLinkIcon className="ml-2 h-4 w-4" />
+          <ArrowTopRightOnSquareIcon className="ml-2 h-4 w-4" />
         </div>
       </a>
       <p

@@ -3,7 +3,10 @@ import React from "react";
 
 import NextLink from "next/link";
 
-import { ArrowNarrowRightIcon, ExternalLinkIcon } from "@heroicons/react/solid";
+import {
+  ArrowLongRightIcon,
+  ArrowTopRightOnSquareIcon
+} from "@heroicons/react/20/solid";
 import Icon from "../../elements/icons/Icon";
 export default function Button({
   label,
@@ -139,10 +142,10 @@ export default function Button({
             )}
             <div>{label}</div>
             {destination == "external" && (
-              <ExternalLinkIcon className={`h-4 w-4`} />
+              <ArrowTopRightOnSquareIcon className={`h-4 w-4`} />
             )}
             {destination == "step" && (
-              <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
+              <ArrowLongRightIcon className="mt-px h-4 w-4" />
             )}
           </div>
         </NextLink>
@@ -271,10 +274,10 @@ export default function Button({
               )}
               <div>{label}</div>
               {destination == "external" && (
-                <ExternalLinkIcon className={`h-4 w-4`} />
+                <ArrowTopRightOnSquareIcon className={`h-4 w-4`} />
               )}
               {destination == "step" && (
-                <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
+                <ArrowLongRightIcon className="mt-px h-4 w-4" />
               )}
             </div>
           </a>
@@ -404,10 +407,10 @@ export default function Button({
         )}
         <div>{label}</div>
         {destination == "external" && (
-          <ExternalLinkIcon className={`h-4 w-4`} />
+          <ArrowTopRightOnSquareIcon className={`h-4 w-4`} />
         )}
         {destination == "step" && (
-          <ArrowNarrowRightIcon className="mt-px h-4 w-4" />
+          <ArrowLongRightIcon className="mt-px h-4 w-4" />
         )}
       </button>
     );

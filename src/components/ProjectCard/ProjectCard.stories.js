@@ -9,7 +9,7 @@ const Template = (args) => <ProjectCard {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  icon: "ArchiveIcon",
+  icon: "ArchiveBoxIcon",
   title: "An old project",
   years: "2009-2019",
   link: "https://lorem.test",

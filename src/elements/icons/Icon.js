@@ -1,46 +1,92 @@
 import {
   AcademicCapIcon,
-  AdjustmentsIcon,
-  AnnotationIcon,
-  ArchiveIcon,
-  ArrowCircleDownIcon,
-  ArrowCircleLeftIcon,
-  ArrowCircleRightIcon,
-  ArrowCircleUpIcon,
+  AdjustmentsHorizontalIcon,
+  AdjustmentsVerticalIcon,
+  ArchiveBoxArrowDownIcon,
+  ArchiveBoxIcon,
+  ArchiveBoxXMarkIcon,
+  ArrowDownCircleIcon,
   ArrowDownIcon,
+  ArrowDownLeftIcon,
+  ArrowDownOnSquareIcon,
+  ArrowDownOnSquareStackIcon,
+  ArrowDownRightIcon,
+  ArrowDownTrayIcon,
+  ArrowLeftCircleIcon,
   ArrowLeftIcon,
-  ArrowNarrowDownIcon,
-  ArrowNarrowLeftIcon,
-  ArrowNarrowRightIcon,
-  ArrowNarrowUpIcon,
+  ArrowLeftOnRectangleIcon,
+  ArrowLongDownIcon,
+  ArrowLongLeftIcon,
+  ArrowLongRightIcon,
+  ArrowLongUpIcon,
+  ArrowPathIcon,
+  ArrowPathRoundedSquareIcon,
+  ArrowRightCircleIcon,
   ArrowRightIcon,
-  ArrowsExpandIcon,
-  ArrowSmDownIcon,
-  ArrowSmLeftIcon,
-  ArrowSmRightIcon,
-  ArrowSmUpIcon,
+  ArrowRightOnRectangleIcon,
+  ArrowSmallDownIcon,
+  ArrowSmallLeftIcon,
+  ArrowSmallRightIcon,
+  ArrowSmallUpIcon, ArrowsPointingInIcon,
+  ArrowsPointingOutIcon,
+  ArrowsRightLeftIcon,
+  ArrowsUpDownIcon, ArrowTopRightOnSquareIcon,
+  ArrowTrendingDownIcon,
+  ArrowTrendingUpIcon,
+  ArrowUpCircleIcon,
   ArrowUpIcon,
-  AtSymbolIcon,
+  ArrowUpLeftIcon,
+  ArrowUpOnSquareIcon,
+  ArrowUpOnSquareStackIcon,
+  ArrowUpRightIcon,
+  ArrowUpTrayIcon,
+  ArrowUturnDownIcon,
+  ArrowUturnLeftIcon,
+  ArrowUturnRightIcon,
+  ArrowUturnUpIcon, AtSymbolIcon,
   BackspaceIcon,
-  BadgeCheckIcon,
-  BanIcon,
+  BackwardIcon,
+  BanknotesIcon,
+  Bars2Icon,
+  Bars3BottomLeftIcon,
+  Bars3BottomRightIcon,
+  Bars3CenterLeftIcon,
+  Bars3Icon,
+  Bars4Icon,
+  BarsArrowDownIcon,
+  BarsArrowUpIcon,
+  Battery0Icon,
+  Battery100Icon,
+  Battery50Icon,
   BeakerIcon,
+  BellAlertIcon,
   BellIcon,
-  BookmarkAltIcon,
-  BookmarkIcon,
-  BookOpenIcon,
-  BriefcaseIcon,
+  BellSlashIcon,
+  BellSnoozeIcon,
+  BoltIcon,
+  BoltSlashIcon, BookmarkIcon,
+  BookmarkSlashIcon,
+  BookmarkSquareIcon, BookOpenIcon, BriefcaseIcon,
+  BuildingLibraryIcon,
+  BuildingOffice2Icon,
+  BuildingOfficeIcon,
+  BuildingStorefrontIcon,
   CakeIcon,
   CalculatorIcon,
+  CalendarDaysIcon,
   CalendarIcon,
   CameraIcon,
-  CashIcon,
   ChartBarIcon,
+  ChartBarSquareIcon,
   ChartPieIcon,
-  ChartSquareBarIcon,
-  ChatAlt2Icon,
-  ChatAltIcon,
-  ChatIcon,
+  ChatBubbleBottomCenterIcon,
+  ChatBubbleBottomCenterTextIcon,
+  ChatBubbleLeftEllipsisIcon,
+  ChatBubbleLeftIcon,
+  ChatBubbleLeftRightIcon,
+  ChatBubbleOvalLeftEllipsisIcon,
+  ChatBubbleOvalLeftIcon,
+  CheckBadgeIcon,
   CheckCircleIcon,
   CheckIcon,
   ChevronDoubleDownIcon,
@@ -50,20 +96,25 @@ import {
   ChevronDownIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
+  ChevronUpDownIcon,
   ChevronUpIcon,
-  ChipIcon,
-  ClipboardCheckIcon,
-  ClipboardCopyIcon,
+  CircleStackIcon,
+  ClipboardDocumentCheckIcon,
+  ClipboardDocumentIcon,
+  ClipboardDocumentListIcon,
   ClipboardIcon,
-  ClipboardListIcon,
   ClockIcon,
-  CloudDownloadIcon,
+  CloudArrowDownIcon,
+  CloudArrowUpIcon,
   CloudIcon,
-  CloudUploadIcon,
-  CodeIcon,
+  CodeBracketIcon,
+  CodeBracketSquareIcon,
+  Cog6ToothIcon,
+  Cog8ToothIcon,
   CogIcon,
-  CollectionIcon,
-  ColorSwatchIcon,
+  CommandLineIcon,
+  ComputerDesktopIcon,
+  CpuChipIcon,
   CreditCardIcon,
   CubeIcon,
   CubeTransparentIcon,
@@ -73,163 +124,156 @@ import {
   CurrencyPoundIcon,
   CurrencyRupeeIcon,
   CurrencyYenIcon,
-  CursorClickIcon,
-  DatabaseIcon,
-  DesktopComputerIcon,
-  DeviceMobileIcon,
+  CursorArrowRaysIcon,
+  CursorArrowRippleIcon,
+  DevicePhoneMobileIcon,
   DeviceTabletIcon,
-  DocumentAddIcon,
-  DocumentDownloadIcon,
+  DocumentArrowDownIcon,
+  DocumentArrowUpIcon,
+  DocumentChartBarIcon,
+  DocumentCheckIcon,
   DocumentDuplicateIcon,
   DocumentIcon,
-  DocumentRemoveIcon,
-  DocumentReportIcon,
-  DocumentSearchIcon,
+  DocumentMagnifyingGlassIcon,
+  DocumentMinusIcon,
+  DocumentPlusIcon,
   DocumentTextIcon,
-  DotsCircleHorizontalIcon,
-  DotsHorizontalIcon,
-  DotsVerticalIcon,
-  DownloadIcon,
-  DuplicateIcon,
-  EmojiHappyIcon,
-  EmojiSadIcon,
+  EllipsisHorizontalCircleIcon,
+  EllipsisHorizontalIcon,
+  EllipsisVerticalIcon,
+  EnvelopeIcon,
+  EnvelopeOpenIcon,
   ExclamationCircleIcon,
-  ExclamationIcon,
-  ExternalLinkIcon,
+  ExclamationTriangleIcon,
   EyeIcon,
-  EyeOffIcon,
-  FastForwardIcon,
+  EyeSlashIcon,
+  FaceFrownIcon,
+  FaceSmileIcon,
   FilmIcon,
-  FilterIcon,
   FingerPrintIcon,
   FireIcon,
   FlagIcon,
-  FolderAddIcon,
-  FolderDownloadIcon,
+  FolderArrowDownIcon,
   FolderIcon,
+  FolderMinusIcon,
   FolderOpenIcon,
-  FolderRemoveIcon,
+  FolderPlusIcon,
+  ForwardIcon,
+  FunnelIcon,
+  GifIcon,
   GiftIcon,
+  GiftTopIcon,
   GlobeAltIcon,
-  GlobeIcon,
-  HandIcon,
+  GlobeAmericasIcon,
+  GlobeAsiaAustraliaIcon,
+  GlobeEuropeAfricaIcon,
+  HandRaisedIcon,
+  HandThumbDownIcon,
+  HandThumbUpIcon,
   HashtagIcon,
   HeartIcon,
   HomeIcon,
+  HomeModernIcon,
   IdentificationIcon,
+  InboxArrowDownIcon,
   InboxIcon,
-  InboxInIcon,
+  InboxStackIcon,
   InformationCircleIcon,
   KeyIcon,
-  LibraryIcon,
+  LanguageIcon,
+  LifebuoyIcon,
   LightBulbIcon,
-  LightningBoltIcon,
   LinkIcon,
-  LocationMarkerIcon,
+  ListBulletIcon,
   LockClosedIcon,
   LockOpenIcon,
-  LoginIcon,
-  LogoutIcon,
-  MailIcon,
-  MailOpenIcon,
+  MagnifyingGlassCircleIcon,
+  MagnifyingGlassIcon,
+  MagnifyingGlassMinusIcon,
+  MagnifyingGlassPlusIcon,
   MapIcon,
-  MenuAlt1Icon,
-  MenuAlt2Icon,
-  MenuAlt3Icon,
-  MenuAlt4Icon,
-  MenuIcon,
+  MapPinIcon,
+  MegaphoneIcon,
   MicrophoneIcon,
   MinusCircleIcon,
   MinusIcon,
-  MinusSmIcon,
+  MinusSmallIcon,
   MoonIcon,
-  MusicNoteIcon,
+  MusicalNoteIcon,
   NewspaperIcon,
-  OfficeBuildingIcon,
+  NoSymbolIcon,
+  PaintBrushIcon,
   PaperAirplaneIcon,
   PaperClipIcon,
   PauseIcon,
-  PencilAltIcon,
   PencilIcon,
+  PencilSquareIcon,
+  PhoneArrowDownLeftIcon,
+  PhoneArrowUpRightIcon,
   PhoneIcon,
-  PhoneIncomingIcon,
-  PhoneMissedCallIcon,
-  PhoneOutgoingIcon,
-  PhotographIcon,
+  PhoneXMarkIcon,
+  PhotoIcon,
   PlayIcon,
+  PlayPauseIcon,
   PlusCircleIcon,
   PlusIcon,
-  PlusSmIcon,
+  PlusSmallIcon,
   PresentationChartBarIcon,
   PresentationChartLineIcon,
   PrinterIcon,
-  PuzzleIcon,
-  QrcodeIcon,
+  PuzzlePieceIcon,
+  QrCodeIcon,
   QuestionMarkCircleIcon,
+  QueueListIcon,
+  RadioIcon,
+  ReceiptPercentIcon,
   ReceiptRefundIcon,
-  ReceiptTaxIcon,
-  RefreshIcon,
-  ReplyIcon,
-  RewindIcon,
+  RectangleGroupIcon,
+  RectangleStackIcon,
   RssIcon,
-  SaveAsIcon,
-  SaveIcon,
   ScaleIcon,
   ScissorsIcon,
-  SearchCircleIcon,
-  SearchIcon,
-  SelectorIcon,
   ServerIcon,
+  ServerStackIcon,
   ShareIcon,
   ShieldCheckIcon,
   ShieldExclamationIcon,
   ShoppingBagIcon,
   ShoppingCartIcon,
-  SortAscendingIcon,
-  SortDescendingIcon,
+  SignalIcon,
+  SignalSlashIcon,
   SparklesIcon,
-  SpeakerphoneIcon,
+  SpeakerWaveIcon,
+  SpeakerXMarkIcon,
+  Square2StackIcon,
+  Squares2X2Icon,
+  SquaresPlusIcon,
   StarIcon,
-  StatusOfflineIcon,
-  StatusOnlineIcon,
   StopIcon,
   SunIcon,
-  SupportIcon,
-  SwitchHorizontalIcon,
-  SwitchVerticalIcon,
-  TableIcon,
+  SwatchIcon,
+  TableCellsIcon,
   TagIcon,
-  TemplateIcon,
-  TerminalIcon,
-  ThumbDownIcon,
-  ThumbUpIcon,
   TicketIcon,
-  TranslateIcon,
   TrashIcon,
-  TrendingDownIcon,
-  TrendingUpIcon,
   TruckIcon,
-  UploadIcon,
-  UserAddIcon,
   UserCircleIcon,
   UserGroupIcon,
   UserIcon,
-  UserRemoveIcon,
+  UserMinusIcon,
+  UserPlusIcon,
   UsersIcon,
   VariableIcon,
   VideoCameraIcon,
-  ViewBoardsIcon,
-  ViewGridAddIcon,
-  ViewGridIcon,
-  ViewListIcon,
-  VolumeOffIcon,
-  VolumeUpIcon,
+  VideoCameraSlashIcon,
+  ViewColumnsIcon,
+  WalletIcon,
   WifiIcon,
+  WrenchIcon,
+  WrenchScrewdriverIcon,
   XCircleIcon,
-  XIcon,
-  ZoomInIcon,
-  ZoomOutIcon,
-} from "@heroicons/react/outline";
+  XMarkIcon
+} from "@heroicons/react/24/outline";
 import React from "react";
 
 import Unsplash from "./Unsplash";
@@ -245,45 +289,39 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "AdjustmentsIcon")
+  else if (props.icon == "AdjustmentsHorizontalIcon")
     return (
-      <AdjustmentsIcon
+      <AdjustmentsHorizontalIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "AnnotationIcon")
+  else if (props.icon == "AdjustmentsVerticalIcon")
     return (
-      <AnnotationIcon
+      <AdjustmentsVerticalIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArchiveIcon")
+  else if (props.icon == "ArchiveBoxArrowDownIcon")
     return (
-      <ArchiveIcon
+      <ArchiveBoxArrowDownIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowCircleDownIcon")
+  else if (props.icon == "ArchiveBoxIcon")
     return (
-      <ArrowCircleDownIcon
+      <ArchiveBoxIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowCircleLeftIcon")
+  else if (props.icon == "ArchiveBoxXMarkIcon")
     return (
-      <ArrowCircleLeftIcon
+      <ArchiveBoxXMarkIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowCircleRightIcon")
+  else if (props.icon == "ArrowDownCircleIcon")
     return (
-      <ArrowCircleRightIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "ArrowCircleUpIcon")
-    return (
-      <ArrowCircleUpIcon
+      <ArrowDownCircleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -293,33 +331,93 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "ArrowDownLeftIcon")
+    return (
+      <ArrowDownLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowDownOnSquareIcon")
+    return (
+      <ArrowDownOnSquareIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowDownOnSquareStackIcon")
+    return (
+      <ArrowDownOnSquareStackIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowDownRightIcon")
+    return (
+      <ArrowDownRightIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowDownTrayIcon")
+    return (
+      <ArrowDownTrayIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowLeftCircleIcon")
+    return (
+      <ArrowLeftCircleIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "ArrowLeftIcon")
     return (
       <ArrowLeftIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowNarrowDownIcon")
+  else if (props.icon == "ArrowLeftOnRectangleIcon")
     return (
-      <ArrowNarrowDownIcon
+      <ArrowLeftOnRectangleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowNarrowLeftIcon")
+  else if (props.icon == "ArrowLongDownIcon")
     return (
-      <ArrowNarrowLeftIcon
+      <ArrowLongDownIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowNarrowRightIcon")
+  else if (props.icon == "ArrowLongLeftIcon")
     return (
-      <ArrowNarrowRightIcon
+      <ArrowLongLeftIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowNarrowUpIcon")
+  else if (props.icon == "ArrowLongRightIcon")
     return (
-      <ArrowNarrowUpIcon
+      <ArrowLongRightIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowLongUpIcon")
+    return (
+      <ArrowLongUpIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowPathIcon")
+    return (
+      <ArrowPathIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowPathRoundedSquareIcon")
+    return (
+      <ArrowPathRoundedSquareIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowRightCircleIcon")
+    return (
+      <ArrowRightCircleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -329,27 +427,57 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowSmDownIcon")
+  else if (props.icon == "ArrowRightOnRectangleIcon")
     return (
-      <ArrowSmDownIcon
+      <ArrowRightOnRectangleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowSmLeftIcon")
+  else if (props.icon == "ArrowSmallDownIcon")
     return (
-      <ArrowSmLeftIcon
+      <ArrowSmallDownIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowSmRightIcon")
+  else if (props.icon == "ArrowSmallLeftIcon")
     return (
-      <ArrowSmRightIcon
+      <ArrowSmallLeftIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowSmUpIcon")
+  else if (props.icon == "ArrowSmallRightIcon")
     return (
-      <ArrowSmUpIcon
+      <ArrowSmallRightIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowSmallUpIcon")
+    return (
+      <ArrowSmallUpIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowTopRightOnSquareIcon")
+    return (
+      <ArrowTopRightOnSquareIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowTrendingDownIcon")
+    return (
+      <ArrowTrendingDownIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowTrendingUpIcon")
+    return (
+      <ArrowTrendingUpIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUpCircleIcon")
+    return (
+      <ArrowUpCircleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -359,9 +487,81 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ArrowsExpandIcon")
+  else if (props.icon == "ArrowUpLeftIcon")
     return (
-      <ArrowsExpandIcon
+      <ArrowUpLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUpOnSquareIcon")
+    return (
+      <ArrowUpOnSquareIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUpOnSquareStackIcon")
+    return (
+      <ArrowUpOnSquareStackIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUpRightIcon")
+    return (
+      <ArrowUpRightIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUpTrayIcon")
+    return (
+      <ArrowUpTrayIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUturnDownIcon")
+    return (
+      <ArrowUturnDownIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUturnLeftIcon")
+    return (
+      <ArrowUturnLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUturnRightIcon")
+    return (
+      <ArrowUturnRightIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowUturnUpIcon")
+    return (
+      <ArrowUturnUpIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowsPointingInIcon")
+    return (
+      <ArrowsPointingInIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowsPointingOutIcon")
+    return (
+      <ArrowsPointingOutIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowsRightLeftIcon")
+    return (
+      <ArrowsRightLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ArrowsUpDownIcon")
+    return (
+      <ArrowsUpDownIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -377,19 +577,93 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "BadgeCheckIcon")
+  else if (props.icon == "BackwardIcon")
     return (
-      <BadgeCheckIcon
+      <BackwardIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "BanIcon")
+  else if (props.icon == "BanknotesIcon")
     return (
-      <BanIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
+      <BanknotesIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Bars2Icon")
+    return (
+      <Bars2Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Bars3BottomLeftIcon")
+    return (
+      <Bars3BottomLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Bars3BottomRightIcon")
+    return (
+      <Bars3BottomRightIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Bars3CenterLeftIcon")
+    return (
+      <Bars3CenterLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Bars3Icon")
+    return (
+      <Bars3Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Bars4Icon")
+    return (
+      <Bars4Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BarsArrowDownIcon")
+    return (
+      <BarsArrowDownIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BarsArrowUpIcon")
+    return (
+      <BarsArrowUpIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Battery0Icon")
+    return (
+      <Battery0Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Battery100Icon")
+    return (
+      <Battery100Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Battery50Icon")
+    return (
+      <Battery50Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
     );
   else if (props.icon == "BeakerIcon")
     return (
       <BeakerIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BellAlertIcon")
+    return (
+      <BellAlertIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -399,15 +673,33 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "BookOpenIcon")
+  else if (props.icon == "BellSlashIcon")
     return (
-      <BookOpenIcon
+      <BellSlashIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "BookmarkAltIcon")
+  else if (props.icon == "BellSnoozeIcon")
     return (
-      <BookmarkAltIcon
+      <BellSnoozeIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BoltIcon")
+    return (
+      <BoltIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BoltSlashIcon")
+    return (
+      <BoltSlashIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BookOpenIcon")
+    return (
+      <BookOpenIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -417,9 +709,45 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "BookmarkSlashIcon")
+    return (
+      <BookmarkSlashIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BookmarkSquareIcon")
+    return (
+      <BookmarkSquareIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "BriefcaseIcon")
     return (
       <BriefcaseIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BuildingLibraryIcon")
+    return (
+      <BuildingLibraryIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BuildingOffice2Icon")
+    return (
+      <BuildingOffice2Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BuildingOfficeIcon")
+    return (
+      <BuildingOfficeIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "BuildingStorefrontIcon")
+    return (
+      <BuildingStorefrontIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -435,6 +763,12 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "CalendarDaysIcon")
+    return (
+      <CalendarDaysIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "CalendarIcon")
     return (
       <CalendarIcon
@@ -447,15 +781,15 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "CashIcon")
-    return (
-      <CashIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
   else if (props.icon == "ChartBarIcon")
     return (
       <ChartBarIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ChartBarSquareIcon")
+    return (
+      <ChartBarSquareIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -465,27 +799,51 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ChartSquareBarIcon")
+  else if (props.icon == "ChatBubbleBottomCenterIcon")
     return (
-      <ChartSquareBarIcon
+      <ChatBubbleBottomCenterIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ChatAlt2Icon")
+  else if (props.icon == "ChatBubbleBottomCenterTextIcon")
     return (
-      <ChatAlt2Icon
+      <ChatBubbleBottomCenterTextIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ChatAltIcon")
+  else if (props.icon == "ChatBubbleLeftEllipsisIcon")
     return (
-      <ChatAltIcon
+      <ChatBubbleLeftEllipsisIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ChatIcon")
+  else if (props.icon == "ChatBubbleLeftIcon")
     return (
-      <ChatIcon
+      <ChatBubbleLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ChatBubbleLeftRightIcon")
+    return (
+      <ChatBubbleLeftRightIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ChatBubbleOvalLeftEllipsisIcon")
+    return (
+      <ChatBubbleOvalLeftEllipsisIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ChatBubbleOvalLeftIcon")
+    return (
+      <ChatBubbleOvalLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "CheckBadgeIcon")
+    return (
+      <CheckBadgeIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -543,27 +901,39 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "ChevronUpDownIcon")
+    return (
+      <ChevronUpDownIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "ChevronUpIcon")
     return (
       <ChevronUpIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ChipIcon")
+  else if (props.icon == "CircleStackIcon")
     return (
-      <ChipIcon
+      <CircleStackIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ClipboardCheckIcon")
+  else if (props.icon == "ClipboardDocumentCheckIcon")
     return (
-      <ClipboardCheckIcon
+      <ClipboardDocumentCheckIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ClipboardCopyIcon")
+  else if (props.icon == "ClipboardDocumentIcon")
     return (
-      <ClipboardCopyIcon
+      <ClipboardDocumentIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ClipboardDocumentListIcon")
+    return (
+      <ClipboardDocumentListIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -573,21 +943,21 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ClipboardListIcon")
-    return (
-      <ClipboardListIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
   else if (props.icon == "ClockIcon")
     return (
       <ClockIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "CloudDownloadIcon")
+  else if (props.icon == "CloudArrowDownIcon")
     return (
-      <CloudDownloadIcon
+      <CloudArrowDownIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "CloudArrowUpIcon")
+    return (
+      <CloudArrowUpIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -597,15 +967,27 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "CloudUploadIcon")
+  else if (props.icon == "CodeBracketIcon")
     return (
-      <CloudUploadIcon
+      <CodeBracketIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "CodeIcon")
+  else if (props.icon == "CodeBracketSquareIcon")
     return (
-      <CodeIcon
+      <CodeBracketSquareIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Cog6ToothIcon")
+    return (
+      <Cog6ToothIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Cog8ToothIcon")
+    return (
+      <Cog8ToothIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -613,15 +995,21 @@ export default function Icon(props) {
     return (
       <CogIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
     );
-  else if (props.icon == "CollectionIcon")
+  else if (props.icon == "CommandLineIcon")
     return (
-      <CollectionIcon
+      <CommandLineIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ColorSwatchIcon")
+  else if (props.icon == "ComputerDesktopIcon")
     return (
-      <ColorSwatchIcon
+      <ComputerDesktopIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "CpuChipIcon")
+    return (
+      <CpuChipIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -679,27 +1067,21 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "CursorClickIcon")
+  else if (props.icon == "CursorArrowRaysIcon")
     return (
-      <CursorClickIcon
+      <CursorArrowRaysIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DatabaseIcon")
+  else if (props.icon == "CursorArrowRippleIcon")
     return (
-      <DatabaseIcon
+      <CursorArrowRippleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DesktopComputerIcon")
+  else if (props.icon == "DevicePhoneMobileIcon")
     return (
-      <DesktopComputerIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "DeviceMobileIcon")
-    return (
-      <DeviceMobileIcon
+      <DevicePhoneMobileIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -709,15 +1091,27 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DocumentAddIcon")
+  else if (props.icon == "DocumentArrowDownIcon")
     return (
-      <DocumentAddIcon
+      <DocumentArrowDownIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DocumentDownloadIcon")
+  else if (props.icon == "DocumentArrowUpIcon")
     return (
-      <DocumentDownloadIcon
+      <DocumentArrowUpIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "DocumentChartBarIcon")
+    return (
+      <DocumentChartBarIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "DocumentCheckIcon")
+    return (
+      <DocumentCheckIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -733,21 +1127,21 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DocumentRemoveIcon")
+  else if (props.icon == "DocumentMagnifyingGlassIcon")
     return (
-      <DocumentRemoveIcon
+      <DocumentMagnifyingGlassIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DocumentReportIcon")
+  else if (props.icon == "DocumentMinusIcon")
     return (
-      <DocumentReportIcon
+      <DocumentMinusIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DocumentSearchIcon")
+  else if (props.icon == "DocumentPlusIcon")
     return (
-      <DocumentSearchIcon
+      <DocumentPlusIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -757,45 +1151,33 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DotsCircleHorizontalIcon")
+  else if (props.icon == "EllipsisHorizontalCircleIcon")
     return (
-      <DotsCircleHorizontalIcon
+      <EllipsisHorizontalCircleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DotsHorizontalIcon")
+  else if (props.icon == "EllipsisHorizontalIcon")
     return (
-      <DotsHorizontalIcon
+      <EllipsisHorizontalIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DotsVerticalIcon")
+  else if (props.icon == "EllipsisVerticalIcon")
     return (
-      <DotsVerticalIcon
+      <EllipsisVerticalIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DownloadIcon")
+  else if (props.icon == "EnvelopeIcon")
     return (
-      <DownloadIcon
+      <EnvelopeIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "DuplicateIcon")
+  else if (props.icon == "EnvelopeOpenIcon")
     return (
-      <DuplicateIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "EmojiHappyIcon")
-    return (
-      <EmojiHappyIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "EmojiSadIcon")
-    return (
-      <EmojiSadIcon
+      <EnvelopeOpenIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -805,15 +1187,9 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ExclamationIcon")
+  else if (props.icon == "ExclamationTriangleIcon")
     return (
-      <ExclamationIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "ExternalLinkIcon")
-    return (
-      <ExternalLinkIcon
+      <ExclamationTriangleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -821,27 +1197,27 @@ export default function Icon(props) {
     return (
       <EyeIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
     );
-  else if (props.icon == "EyeOffIcon")
+  else if (props.icon == "EyeSlashIcon")
     return (
-      <EyeOffIcon
+      <EyeSlashIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "FastForwardIcon")
+  else if (props.icon == "FaceFrownIcon")
     return (
-      <FastForwardIcon
+      <FaceFrownIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "FaceSmileIcon")
+    return (
+      <FaceSmileIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
   else if (props.icon == "FilmIcon")
     return (
       <FilmIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "FilterIcon")
-    return (
-      <FilterIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -863,15 +1239,9 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "FolderAddIcon")
+  else if (props.icon == "FolderArrowDownIcon")
     return (
-      <FolderAddIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "FolderDownloadIcon")
-    return (
-      <FolderDownloadIcon
+      <FolderArrowDownIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -881,21 +1251,49 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "FolderMinusIcon")
+    return (
+      <FolderMinusIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "FolderOpenIcon")
     return (
       <FolderOpenIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "FolderRemoveIcon")
+  else if (props.icon == "FolderPlusIcon")
     return (
-      <FolderRemoveIcon
+      <FolderPlusIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
+    );
+  else if (props.icon == "ForwardIcon")
+    return (
+      <ForwardIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "FunnelIcon")
+    return (
+      <FunnelIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "GifIcon")
+    return (
+      <GifIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
     );
   else if (props.icon == "GiftIcon")
     return (
       <GiftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "GiftTopIcon")
+    return (
+      <GiftTopIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -905,15 +1303,39 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "GlobeIcon")
+  else if (props.icon == "GlobeAmericasIcon")
     return (
-      <GlobeIcon
+      <GlobeAmericasIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "HandIcon")
+  else if (props.icon == "GlobeAsiaAustraliaIcon")
     return (
-      <HandIcon
+      <GlobeAsiaAustraliaIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "GlobeEuropeAfricaIcon")
+    return (
+      <GlobeEuropeAfricaIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "HandRaisedIcon")
+    return (
+      <HandRaisedIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "HandThumbDownIcon")
+    return (
+      <HandThumbDownIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "HandThumbUpIcon")
+    return (
+      <HandThumbUpIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -935,9 +1357,21 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "HomeModernIcon")
+    return (
+      <HomeModernIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "IdentificationIcon")
     return (
       <IdentificationIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "InboxArrowDownIcon")
+    return (
+      <InboxArrowDownIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -947,9 +1381,9 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "InboxInIcon")
+  else if (props.icon == "InboxStackIcon")
     return (
-      <InboxInIcon
+      <InboxStackIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -963,9 +1397,15 @@ export default function Icon(props) {
     return (
       <KeyIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
     );
-  else if (props.icon == "LibraryIcon")
+  else if (props.icon == "LanguageIcon")
     return (
-      <LibraryIcon
+      <LanguageIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "LifebuoyIcon")
+    return (
+      <LifebuoyIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -975,21 +1415,15 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "LightningBoltIcon")
-    return (
-      <LightningBoltIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
   else if (props.icon == "LinkIcon")
     return (
       <LinkIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "LocationMarkerIcon")
+  else if (props.icon == "ListBulletIcon")
     return (
-      <LocationMarkerIcon
+      <ListBulletIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1005,27 +1439,27 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "LoginIcon")
+  else if (props.icon == "MagnifyingGlassCircleIcon")
     return (
-      <LoginIcon
+      <MagnifyingGlassCircleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "LogoutIcon")
+  else if (props.icon == "MagnifyingGlassIcon")
     return (
-      <LogoutIcon
+      <MagnifyingGlassIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "MailIcon")
+  else if (props.icon == "MagnifyingGlassMinusIcon")
     return (
-      <MailIcon
+      <MagnifyingGlassMinusIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "MailOpenIcon")
+  else if (props.icon == "MagnifyingGlassPlusIcon")
     return (
-      <MailOpenIcon
+      <MagnifyingGlassPlusIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1033,33 +1467,15 @@ export default function Icon(props) {
     return (
       <MapIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
     );
-  else if (props.icon == "MenuAlt1Icon")
+  else if (props.icon == "MapPinIcon")
     return (
-      <MenuAlt1Icon
+      <MapPinIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "MenuAlt2Icon")
+  else if (props.icon == "MegaphoneIcon")
     return (
-      <MenuAlt2Icon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "MenuAlt3Icon")
-    return (
-      <MenuAlt3Icon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "MenuAlt4Icon")
-    return (
-      <MenuAlt4Icon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "MenuIcon")
-    return (
-      <MenuIcon
+      <MegaphoneIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1081,9 +1497,9 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "MinusSmIcon")
+  else if (props.icon == "MinusSmallIcon")
     return (
-      <MinusSmIcon
+      <MinusSmallIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1093,9 +1509,9 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "MusicNoteIcon")
+  else if (props.icon == "MusicalNoteIcon")
     return (
-      <MusicNoteIcon
+      <MusicalNoteIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1105,9 +1521,15 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "OfficeBuildingIcon")
+  else if (props.icon == "NoSymbolIcon")
     return (
-      <OfficeBuildingIcon
+      <NoSymbolIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "PaintBrushIcon")
+    return (
+      <PaintBrushIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1129,15 +1551,27 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "PencilAltIcon")
-    return (
-      <PencilAltIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
   else if (props.icon == "PencilIcon")
     return (
       <PencilIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "PencilSquareIcon")
+    return (
+      <PencilSquareIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "PhoneArrowDownLeftIcon")
+    return (
+      <PhoneArrowDownLeftIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "PhoneArrowUpRightIcon")
+    return (
+      <PhoneArrowUpRightIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1147,33 +1581,27 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "PhoneIncomingIcon")
+  else if (props.icon == "PhoneXMarkIcon")
     return (
-      <PhoneIncomingIcon
+      <PhoneXMarkIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "PhoneMissedCallIcon")
+  else if (props.icon == "PhotoIcon")
     return (
-      <PhoneMissedCallIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "PhoneOutgoingIcon")
-    return (
-      <PhoneOutgoingIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "PhotographIcon")
-    return (
-      <PhotographIcon
+      <PhotoIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
   else if (props.icon == "PlayIcon")
     return (
       <PlayIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "PlayPauseIcon")
+    return (
+      <PlayPauseIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1189,9 +1617,9 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "PlusSmIcon")
+  else if (props.icon == "PlusSmallIcon")
     return (
-      <PlusSmIcon
+      <PlusSmallIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1213,15 +1641,15 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "PuzzleIcon")
+  else if (props.icon == "PuzzlePieceIcon")
     return (
-      <PuzzleIcon
+      <PuzzlePieceIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "QrcodeIcon")
+  else if (props.icon == "QrCodeIcon")
     return (
-      <QrcodeIcon
+      <QrCodeIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1231,51 +1659,45 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "QueueListIcon")
+    return (
+      <QueueListIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "RadioIcon")
+    return (
+      <RadioIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ReceiptPercentIcon")
+    return (
+      <ReceiptPercentIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "ReceiptRefundIcon")
     return (
       <ReceiptRefundIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ReceiptTaxIcon")
+  else if (props.icon == "RectangleGroupIcon")
     return (
-      <ReceiptTaxIcon
+      <RectangleGroupIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "RefreshIcon")
+  else if (props.icon == "RectangleStackIcon")
     return (
-      <RefreshIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "ReplyIcon")
-    return (
-      <ReplyIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "RewindIcon")
-    return (
-      <RewindIcon
+      <RectangleStackIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
   else if (props.icon == "RssIcon")
     return (
       <RssIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
-    );
-  else if (props.icon == "SaveAsIcon")
-    return (
-      <SaveAsIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "SaveIcon")
-    return (
-      <SaveIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
     );
   else if (props.icon == "ScaleIcon")
     return (
@@ -1289,27 +1711,15 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "SearchCircleIcon")
-    return (
-      <SearchCircleIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "SearchIcon")
-    return (
-      <SearchIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "SelectorIcon")
-    return (
-      <SelectorIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
   else if (props.icon == "ServerIcon")
     return (
       <ServerIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "ServerStackIcon")
+    return (
+      <ServerStackIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1343,15 +1753,15 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "SortAscendingIcon")
+  else if (props.icon == "SignalIcon")
     return (
-      <SortAscendingIcon
+      <SignalIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "SortDescendingIcon")
+  else if (props.icon == "SignalSlashIcon")
     return (
-      <SortDescendingIcon
+      <SignalSlashIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1361,27 +1771,39 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "SpeakerphoneIcon")
+  else if (props.icon == "SpeakerWaveIcon")
     return (
-      <SpeakerphoneIcon
+      <SpeakerWaveIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "SpeakerXMarkIcon")
+    return (
+      <SpeakerXMarkIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Square2StackIcon")
+    return (
+      <Square2StackIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "Squares2X2Icon")
+    return (
+      <Squares2X2Icon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "SquaresPlusIcon")
+    return (
+      <SquaresPlusIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
   else if (props.icon == "StarIcon")
     return (
       <StarIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "StatusOfflineIcon")
-    return (
-      <StatusOfflineIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "StatusOnlineIcon")
-    return (
-      <StatusOnlineIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1395,27 +1817,15 @@ export default function Icon(props) {
     return (
       <SunIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
     );
-  else if (props.icon == "SupportIcon")
+  else if (props.icon == "SwatchIcon")
     return (
-      <SupportIcon
+      <SwatchIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "SwitchHorizontalIcon")
+  else if (props.icon == "TableCellsIcon")
     return (
-      <SwitchHorizontalIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "SwitchVerticalIcon")
-    return (
-      <SwitchVerticalIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "TableIcon")
-    return (
-      <TableIcon
+      <TableCellsIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1423,39 +1833,9 @@ export default function Icon(props) {
     return (
       <TagIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
     );
-  else if (props.icon == "TemplateIcon")
-    return (
-      <TemplateIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "TerminalIcon")
-    return (
-      <TerminalIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "ThumbDownIcon")
-    return (
-      <ThumbDownIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "ThumbUpIcon")
-    return (
-      <ThumbUpIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
   else if (props.icon == "TicketIcon")
     return (
       <TicketIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "TranslateIcon")
-    return (
-      <TranslateIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1465,33 +1845,9 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "TrendingDownIcon")
-    return (
-      <TrendingDownIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "TrendingUpIcon")
-    return (
-      <TrendingUpIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
   else if (props.icon == "TruckIcon")
     return (
       <TruckIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "UploadIcon")
-    return (
-      <UploadIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "UserAddIcon")
-    return (
-      <UserAddIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1513,9 +1869,15 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "UserRemoveIcon")
+  else if (props.icon == "UserMinusIcon")
     return (
-      <UserRemoveIcon
+      <UserMinusIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "UserPlusIcon")
+    return (
+      <UserPlusIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1537,39 +1899,21 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ViewBoardsIcon")
+  else if (props.icon == "VideoCameraSlashIcon")
     return (
-      <ViewBoardsIcon
+      <VideoCameraSlashIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ViewGridAddIcon")
+  else if (props.icon == "ViewColumnsIcon")
     return (
-      <ViewGridAddIcon
+      <ViewColumnsIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "ViewGridIcon")
+  else if (props.icon == "WalletIcon")
     return (
-      <ViewGridIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "ViewListIcon")
-    return (
-      <ViewListIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "VolumeOffIcon")
-    return (
-      <VolumeOffIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "VolumeUpIcon")
-    return (
-      <VolumeUpIcon
+      <WalletIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
@@ -1579,25 +1923,27 @@ export default function Icon(props) {
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
+  else if (props.icon == "WrenchIcon")
+    return (
+      <WrenchIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
+  else if (props.icon == "WrenchScrewdriverIcon")
+    return (
+      <WrenchScrewdriverIcon
+        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
+      />
+    );
   else if (props.icon == "XCircleIcon")
     return (
       <XCircleIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );
-  else if (props.icon == "XIcon")
+  else if (props.icon == "XMarkIcon")
     return (
-      <XIcon className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`} />
-    );
-  else if (props.icon == "ZoomInIcon")
-    return (
-      <ZoomInIcon
-        className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
-      />
-    );
-  else if (props.icon == "ZoomOutIcon")
-    return (
-      <ZoomOutIcon
+      <XMarkIcon
         className={`${props.stroke == "1" ? "stroke-1" : "stroke-2"}`}
       />
     );

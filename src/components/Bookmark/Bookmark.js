@@ -1,4 +1,4 @@
-import { ExternalLinkIcon } from "@heroicons/react/solid";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import React, { forwardRef } from "react";
@@ -150,7 +150,7 @@ export default function Bookmark({
           <div className="ml-4">
             <p className="inline-flex text-base font-medium text-stone-50">
               {title}
-              <ExternalLinkIcon className="mt-1 ml-2 h-4 w-4 text-stone-200" />
+              <ArrowTopRightOnSquareIcon className="mt-1 ml-2 h-4 w-4 text-stone-200" />
             </p>
             <p className="mt-1 text-sm text-stone-400">{description}</p>
           </div>

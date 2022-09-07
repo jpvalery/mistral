@@ -1,4 +1,4 @@
-import { CheckCircleIcon } from "@heroicons/react/solid";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import PropTypes from "prop-types";
 import React from "react";
 

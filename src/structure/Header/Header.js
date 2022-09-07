@@ -4,8 +4,8 @@ import React from "react";
 import { Menu, Transition } from "@headlessui/react";
 import NextLink from "next/link";
 
-import { MenuIcon } from "@heroicons/react/outline";
-import { ChevronDownIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 
 import Bookmark from "../../components/Bookmark/Bookmark";
 import Button from "../../components/Button/Button";
@@ -98,7 +98,7 @@ export default function Header({
               <div className="hover:text-stone-50">
                 <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                   <span className="sr-only">Open menu</span>
-                  <MenuIcon className="h-8 w-8" />
+                  <Bars3Icon className="h-8 w-8" />
                 </Menu.Button>
               </div>
               <Transition

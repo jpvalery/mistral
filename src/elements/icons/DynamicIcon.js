@@ -12,7 +12,7 @@ export default function HeroIcon(props) {
     );
   } else {
     const Icon = dynamic(() =>
-      import("@heroicons/react/outline").then((mod) => mod[props.icon])
+      import("@heroicons/react/24/outline").then((mod) => mod[props.icon])
     );
     return <Icon />;
   }

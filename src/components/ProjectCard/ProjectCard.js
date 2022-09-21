@@ -6,10 +6,10 @@ import Button from "../Button/Button";
 
 export default function ProjectCard({ icon, title, years, link, description }) {
   return (
-    <div className="divide-y divide-stone-200 overflow-hidden rounded-xl border border-zinc-100 shadow-lg shadow-zinc-200/5">
-      <div className="bg-stone-800 px-4 py-5 sm:px-6">
+    <div className="grid gap-2 rounded-md p-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70 hover:outline hover:outline-1 hover:outline-offset-2 hover:outline-zinc-100/50">
+      <div className="rounded-md bg-stone-800 p-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center justify-between gap-4 text-stone-50">
+          <div className="flex items-center justify-between gap-5 text-stone-50">
             <span className="h-8 w-8">
               <Icon icon={icon} stroke="1" />
             </span>
@@ -27,7 +27,7 @@ export default function ProjectCard({ icon, title, years, link, description }) {
           />
         </div>
       </div>
-      <div className="bg-stone-900 px-4 py-8 text-stone-100 sm:px-6">
+      <div className="rounded-md bg-stone-900 p-6 text-stone-100">
         {description || "-"}
       </div>
     </div>

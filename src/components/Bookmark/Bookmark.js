@@ -27,7 +27,7 @@ export default function Bookmark({
   if (urlExternal == true) {
     return (
       <a href={url} target="_blank">
-        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-xl border border-zinc-100/50 bg-zinc-800 px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
+        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-md px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70 hover:outline hover:outline-1 hover:outline-offset-2 hover:outline-zinc-100/50">
           <div class="relative mt-1 flex h-12 w-12 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
             <span
               className={`h-10 w-10 ${
@@ -161,7 +161,7 @@ export default function Bookmark({
   } else {
     return (
       <IntLink href={url}>
-        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-xl border border-zinc-100/50 bg-zinc-800 px-6 py-4 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70">
+        <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-md px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70 hover:outline hover:outline-1 hover:outline-offset-2 hover:outline-zinc-100/50">
           <span
             className={`h-10 w-10 ${
               icon == "Growth" ? "text-center" : ""

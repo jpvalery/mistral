@@ -25,7 +25,7 @@ export default function Button({
           <div
             className={`flex ${
               maxW == true ? "min-w-fit" : "max-w-fit"
-            } cursor-pointer items-center justify-start gap-2 rounded
+            } cursor-pointer items-center justify-start gap-2 rounded-md
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
@@ -157,7 +157,7 @@ export default function Button({
             <div
               className={`flex ${
                 maxW == true ? "min-w-fit" : "max-w-fit"
-              } cursor-pointer items-center justify-start gap-2 rounded 
+              } cursor-pointer items-center justify-start gap-2 rounded-md 
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${
@@ -290,7 +290,7 @@ export default function Button({
         onClick={onClick}
         className={`flex ${
           maxW == true ? "min-w-fit" : "max-w-fit"
-        } cursor-pointer items-center justify-start gap-2 rounded
+        } cursor-pointer items-center justify-start gap-2 rounded-md
             ${theme == "light" && "bg-gray-100 text-gray-900"}
             ${theme == "dark" && "bg-zinc-800 text-zinc-100"}
             ${

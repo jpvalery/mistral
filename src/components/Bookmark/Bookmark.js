@@ -28,11 +28,10 @@ export default function Bookmark({
     return (
       <a href={url} target="_blank">
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-md px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70 hover:outline hover:outline-1 hover:outline-offset-2 hover:outline-zinc-100/50">
-          <div class="relative mt-1 flex h-12 w-12 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <span
-              className={`h-10 w-10 ${
-                icon == "Growth" ? "text-center" : ""
-              } flex-shrink-0 
+          <span
+            className={`h-10 w-10 ${
+              icon == "Growth" ? "text-center" : ""
+            } flex-shrink-0 
               ${
                 color == "slate"
                   ? "text-slate-500 drop-shadow-[0_0_1rem_#F1F5F940]"
@@ -144,10 +143,9 @@ export default function Bookmark({
                   : ""
               }
               `}
-            >
-              <Icon icon={icon} stroke={"1"} />
-            </span>
-          </div>
+          >
+            <Icon icon={icon} stroke={"1"} />
+          </span>
           <div className="ml-4">
             <p className="inline-flex text-base font-medium text-stone-50">
               {title}

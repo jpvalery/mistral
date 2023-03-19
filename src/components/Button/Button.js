@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import NextLink from "next/link";
+import Link from "next/link";
 
 import {
   ArrowLongRightIcon,
-  ArrowTopRightOnSquareIcon,
+  ArrowTopRightOnSquareIcon
 } from "@heroicons/react/20/solid";
 import Icon from "../../elements/icons/Icon";
 export default function Button({
@@ -21,7 +21,7 @@ export default function Button({
   if (url) {
     if (url.charAt(0) == "/") {
       return (
-        <NextLink href={url}>
+        <Link href={url}>
           <div
             className={`flex ${
               maxW == true ? "min-w-fit" : "max-w-fit"
@@ -148,7 +148,7 @@ export default function Button({
               <ArrowLongRightIcon className="mt-px h-4 w-4" />
             )}
           </div>
-        </NextLink>
+        </Link>
       );
     } else {
       {

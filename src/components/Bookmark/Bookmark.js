@@ -1,20 +1,9 @@
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import React, { forwardRef } from "react";
+import React from "react";
 
 import Icon from "../../elements/icons/Icon";
-
-const IntLink = forwardRef((props, ref) => {
-  let { href, children, ...rest } = props;
-  return (
-    <Link href={href}>
-      <a ref={ref} {...rest}>
-        {children}
-      </a>
-    </Link>
-  );
-});
 
 export default function Bookmark({
   title,
@@ -158,7 +147,7 @@ export default function Bookmark({
     );
   } else {
     return (
-      <IntLink href={url}>
+      <Link href={url}>
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-md px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70 hover:outline hover:outline-1 hover:outline-offset-2 hover:outline-zinc-100/50">
           <span
             className={`h-10 w-10 ${
@@ -283,7 +272,7 @@ export default function Bookmark({
             <p className="mt-1 text-sm text-stone-400">{description}</p>
           </div>
         </span>
-      </IntLink>
+      </Link>
     );
   }
 }

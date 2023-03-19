@@ -1,23 +1,14 @@
+import Link from "next/link";
 import PropTypes from "prop-types";
 import React from "react";
 
 import { Menu, Transition } from "@headlessui/react";
-import NextLink from "next/link";
 
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 
 import Bookmark from "../../components/Bookmark/Bookmark";
 import Button from "../../components/Button/Button";
-
-function IntLink(props) {
-  let { href, children, ...rest } = props;
-  return (
-    <NextLink href={href}>
-      <a {...rest}>{children}</a>
-    </NextLink>
-  );
-}
 
 export default function Header({
   brand,
@@ -32,13 +23,13 @@ export default function Header({
       <div className="mx-auto max-w-4xl text-stone-300">
         <div className="flex items-center justify-between py-4">
           <div className="cursor-pointer font-mono text-xl font-black uppercase">
-            <IntLink href="/">{brand}</IntLink>
+            <Link href="/">{brand}</Link>
           </div>
 
           <div className="hidden md:flex">
             {menus.map((menu) => {
               return (
-                <Menu as="div" className="relative inline-block text-left">
+                <Menu as="div" className="z-[100] relative inline-block text-left">
                   <div className="hover:text-stone-50">
                     <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                       {menu.title.text}

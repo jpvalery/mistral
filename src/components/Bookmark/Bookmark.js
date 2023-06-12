@@ -13,6 +13,7 @@ export default function Bookmark({
   urlExternal,
   color,
 }) {
+  
   if (urlExternal == true) {
     return (
       <a href={url} target="_blank">
@@ -147,7 +148,7 @@ export default function Bookmark({
     );
   } else {
     return (
-      <Link href={url}>
+      <Link href={url} passHref>
         <span className="flex max-w-lg cursor-pointer items-center gap-2 rounded-md px-4 py-3 shadow-md shadow-zinc-900/20 hover:bg-zinc-800/70 hover:outline hover:outline-1 hover:outline-offset-2 hover:outline-zinc-100/50">
           <span
             className={`h-10 w-10 ${

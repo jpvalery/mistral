@@ -18,7 +18,7 @@
     "release": "rm -rf build && yarn build && yarn publish --access=public"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.13",
+    "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.16",
     "comma-number": "^2.1.0"
   },

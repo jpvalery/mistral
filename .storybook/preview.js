@@ -33,3 +33,4 @@ export const parameters = {
     "storybook/docs/panel": { index: -1 },
   },
 };
+export const tags = ["autodocs"];

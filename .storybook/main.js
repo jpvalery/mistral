@@ -1,8 +1,9 @@
 const path = require("path");
 
 module.exports = {
-  stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   staticDirs: ["../src/assets"],
+
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -25,8 +26,15 @@ module.exports = {
         },
       },
     },
+    "@storybook/addon-mdx-gfm",
+    "@chromatic-com/storybook"
   ],
-  framework: "@storybook/react",
+
+  framework: {
+    name: "@storybook/nextjs",
+    options: {}
+  },
+
   typescript: {
     check: false,
     checkOptions: {},
@@ -37,10 +45,12 @@ module.exports = {
         prop.parent ? !/node_modules/.test(prop.parent.fileName) : true,
     },
   },
+
   core: {
-    builder: "@storybook/builder-webpack5",
-    disableTelemetry: true, // 👈 Disables telemetry
+    // 👈 Disables telemetry
+    disableTelemetry: true
   },
+
   webpackFinal: (config) => {
     /**
      * Add support for alias-imports
@@ -62,4 +72,6 @@ module.exports = {
 
     return config;
   },
+
+  docs: {}
 };
